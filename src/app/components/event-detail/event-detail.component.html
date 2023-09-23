@@ -1,0 +1,29 @@
+<div class="table-responsive-md table-responsive-sm table-responsive-xxl">
+  <table class="table">
+    <thead>
+    <tr>
+      <th scope="col">Program</th>
+      <th scope="col">Épület</th>
+      <th scope="col">Helyszín</th>
+      <th scope="col">Időpont</th>
+      <th scope="col">Létszám</th>
+      <th scope="col">Leírás</th>
+      <th scope="col">Regisztráció</th>
+      <th scope="col">Programfelelős</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td>{{event2?.Program}}</td>
+      <td>{{event2?.epulet | uppercase}}</td>
+      <td>{{event2?.javasoltHelyszin}}</td>
+      <td>{{event2?.idopont}}</td>
+      <td>{{event2?.maxLetszam}}</td>
+      <td>{{event2?.leiras}}</td>
+      <td>{{event2?.kozpontiRegisztracioIgenye}}</td>
+      <td>{{event2?.programfelelos}}</td>
+    </tr>
+    </tbody>
+  </table>
+</div>
+

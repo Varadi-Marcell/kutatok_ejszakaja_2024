@@ -1,10 +1,14 @@
-import { Component } from '@angular/core';
+import {  Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
-  title = 'nyiltnapAngular';
+export class AppComponent  {
+  title = 'ME-Kutatók_Éjszakája';
+
+  constructor() {
+  }
+
 }

@@ -1,0 +1,26 @@
+svg {
+  max-width: 100%;
+  max-height: 90vh;
+  display: block;
+  margin: auto;
+}
+
+
+.building {
+  /*stroke: rgb(166, 245, 245) !important;*/
+  /*stroke-width: 1 !important;*/
+  transition: fill 0.1s, stroke-width 0.5s, stroke 0.5s !important;
+}
+
+.building:hover {
+  fill: #82c2e7 !important;
+  stroke: #115396 !important;
+  stroke-width: 15 !important;
+
+}
+.building2 {
+  fill: #82c2e7 !important;
+  stroke: #115396 !important;
+  stroke-width: 15 !important;
+}
+

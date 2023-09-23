@@ -1,0 +1,11 @@
+.my-zoom-img {
+  max-width: 100%;
+  height: auto;
+}
+.building:hover {
+  fill: red;
+}
+
+#path63146:hover {
+  fill: red !important;
+}

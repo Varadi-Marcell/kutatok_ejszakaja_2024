@@ -1,0 +1,20 @@
+#path63146 {
+  transition: fill 0.3s, stroke-width 1s, stroke 1s !important;
+  stroke: rgb(166, 245, 245) ;
+  stroke-width: 1.3492 !important;
+}
+
+#path63146:hover {
+  fill: #82c2e7 !important;
+  stroke: #115396 !important;
+  stroke-width: 5 !important;
+}
+
+
+svg {
+  max-width: 100%;
+  max-height: 90vh;
+  display: block;
+  margin: auto;
+}
+

@@ -1,0 +1,25 @@
+<p class="pb-4"> </p>
+<div class="container-fluid " style="border: 1px solid gray; border-top: 1px solid gray;">
+
+
+<!--  <div id="krpanoDIV">-->
+<!--    <noscript>...javascript neededed...</noscript>-->
+<!--  </div>-->
+
+
+  <div class="row justify-content-center ">
+    <div class="col">
+      <div #scene class="scene position-relative">
+        <app-my-svg class="img-fluid mx-auto d-block"
+                    style="max-height: 90vh; object-fit: contain;"></app-my-svg>
+        <div class=" p-lg-3 zoom-buttons position-absolute top-0 start-0">
+          <button class="btn btn-secondary" (click)="zoomIn()">+</button>
+          <button class="btn btn-secondary" (click)="zoomOut()">-</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
