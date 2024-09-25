@@ -14,6 +14,12 @@ import { EventDetailComponent } from './components/event-detail/event-detail.com
 import { EventCardComponent } from './components/event-card/event-card.component';
 import { AulaSvgComponent } from './components/aula-svg/aula-svg.component';
 import { AulaComponent } from './components/aula/aula.component';
+import { ElocsarnokComponent } from './elocsarnok/elocsarnok.component';
+import { ElocsarnokSvgComponent } from './elocsarnok-svg/elocsarnok-svg.component';
+import { A4Component } from './a4/a4.component';
+import { A4SvgComponent } from './a4-svg/a4-svg.component';
+import { ParkoloComponent } from './parkolo/parkolo.component';
+import { ParkoloSvgComponent } from './parkolo-svg/parkolo-svg.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +31,13 @@ import { AulaComponent } from './components/aula/aula.component';
     EventDetailComponent,
     EventCardComponent,
     AulaSvgComponent,
-    AulaComponent
+    AulaComponent,
+    ElocsarnokComponent,
+    ElocsarnokSvgComponent,
+    A4Component,
+    A4SvgComponent,
+    ParkoloComponent,
+    ParkoloSvgComponent
   ],
   imports: [
     BrowserModule,

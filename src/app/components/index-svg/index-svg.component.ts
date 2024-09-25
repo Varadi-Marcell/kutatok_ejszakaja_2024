@@ -32,9 +32,11 @@ export class IndexSvgComponent implements AfterViewInit, OnInit {
   @ViewChildren('b4') b4Elements: QueryList<ElementRef>;
   @ViewChildren('c1') c1Elements: QueryList<ElementRef>;
   @ViewChildren('c2') c2Elements: QueryList<ElementRef>;
-  @ViewChildren('fb') fbElements: QueryList<ElementRef>;
+  @ViewChildren('Fobejarat') FobejaratElements: QueryList<ElementRef>;
   @ViewChildren('aula') aulaElements: QueryList<ElementRef>;
+  @ViewChildren('GeoPark') GeoParkElements: QueryList<ElementRef>;
   @ViewChildren('info') infoElements: QueryList<ElementRef>;
+  @ViewChildren('parkolo') parkoloElements: QueryList<ElementRef>;
   constructor(private modalService: BsModalService,
               public renderer: Renderer2,
               private el: ElementRef,

@@ -5,7 +5,7 @@ import {AulaSvgComponent} from "../aula-svg/aula-svg.component";
 @Component({
   selector: 'app-aula',
   templateUrl: './aula.component.html',
-  styleUrls: ['./aula.component.css']
+  styleUrls: ['./aula.component.scss']
 })
 export class AulaComponent implements OnInit,AfterViewInit{
   data: any;

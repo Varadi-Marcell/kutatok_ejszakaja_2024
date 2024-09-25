@@ -1,18 +1,38 @@
-<div class="card m-2 flex-fill mw-100" style="min-width: 18rem;" *ngFor="let event of data">
-  <div class="card-body">
-    <h5 class="card-title">{{event.Program}}</h5>
+<div
+  class="card m-2 flex-fill mw-100"
+  style="min-width: 18rem;"
+  *ngFor="let event of data"
+>  <div class="card-body">
+    <h5 class="card-title">{{event.name}}</h5>
     <hr>
-    <p class="card-text">
-      <strong>Helyszín:</strong> {{event.javasoltHelyszin}}<br>
-      <strong>Időpont:</strong> {{event.idopont}}<br>
-      <strong>Létszám:</strong> {{event.maxLetszam}}<br>
-      <strong>Leírás:</strong> {{event.leiras}}<br>
-      <strong>Regisztráció:</strong> {{event.kozpontiRegisztracioIgenye}}
+    <p class="card-text card-body">
+      <strong>Helyszín:</strong> {{event.place}}<br>
+      <strong>Időpont:</strong> {{event.time}}<br>
+      <strong>Létszám:</strong> {{event.maxPeople}}<br>
+      <strong>Leírás:</strong> {{event.description}}<br>
+      <strong>Regisztráció:</strong> {{event.registration}}
     </p>
-    <div class="d-flex">
-      <button type="button" class="btn btn-outline-danger px-1 me-1" (click)="onClose()">Bezár</button>
-      <button type="button" class="btn btn-outline-secondary px-1 me-1" [routerLink]="'/event-detail/' + event.id" (click)="onClose()" >360° térkép</button>
-      <button type="button" class="btn btn-outline-info px-1 me-1" [routerLink]="'aula'" (click)="onClose()">Aula és Előcsarnok</button>
+    <div class="d-flex card-footer" style="background-color: unset">
+
+<!--      <button *ngIf="event.place == 'aula' && router.url !== '/aula'" type="button" class="btn btn-primary px-1 me-1" [routerLink]="'aula'" (click)="onClose()">Aula-->
+<!--      </button>-->
+<!--      <button *ngIf="event.place == 'Fobejarat' && router.url !== '/elocsarnok'" type="button" class="btn btn-primary px-1 me-1" [routerLink]="'elocsarnok'" (click)="onClose()">Előcsarnok-->
+<!--      </button>-->
+<!--      <button *ngIf="event.place == 'parkolo' && router.url !== '/parkolo' " type="button" class="btn btn-primary px-1 me-1" [routerLink]="'parkolo'" (click)="onClose()">Parkoló programok-->
+<!--      </button>-->
+<!--      <button *ngIf="event.place == 'a4' && router.url !== '/a4' " type="button" class="btn btn-primary px-1 me-1" [routerLink]="'a4'" (click)="onClose()"> A4 épület-->
+<!--      </button>-->
+<!--      <button *ngIf="router.url !== '/'" type="button" class="btn btn-primary px-1 me-1" [routerLink]="''" (click)="onClose()">-->
+<!--        Campus Térkép-->
+<!--      </button>-->
+<!--      <button *ngIf="router.url !== '/'" type="button" class="btn btn-primary px-1 me-1" [routerLink]="''" (click)="onClose()">-->
+<!--        Aula-->
+<!--      </button>-->
+<!--      <button *ngIf="router.url !== '/'" type="button" class="btn btn-primary px-1 me-1" [routerLink]="''" (click)="onClose()">-->
+<!--        A/4-->
+<!--      </button>-->
+<!--      <button type="button" class="btn  px-1 me-1" (click)="onClose()">Bezár</button>-->
+
     </div>
   </div>
 </div>

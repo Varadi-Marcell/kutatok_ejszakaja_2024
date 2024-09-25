@@ -1,5 +1,7 @@
-import {Component, EventEmitter, Input, Output} from '@angular/core';
-import {BsModalRef} from "ngx-bootstrap/modal";
+import {Component, EventEmitter, Input, Output, TemplateRef} from '@angular/core';
+import {BsModalRef, BsModalService} from "ngx-bootstrap/modal";
+import {Router} from "@angular/router";
+import { EventData } from "../../model/event-data";
 
 @Component({
   selector: 'app-event-card',
@@ -8,12 +10,20 @@ import {BsModalRef} from "ngx-bootstrap/modal";
 })
 export class EventCardComponent {
 
+  constructor(private modalService: BsModalService,
+              public router: Router
+  ) {
+  }
   @Input()
-  data:any;
+  data: EventData[];
   modalRef!: BsModalRef;
   @Output() close: EventEmitter<void> = new EventEmitter();
+  showImage: any;
 
   onClose() {
     this.close.emit();
+  }
+  openModal(template: TemplateRef<any>) {
+    this.modalRef = this.modalService.show(template);
   }
 }

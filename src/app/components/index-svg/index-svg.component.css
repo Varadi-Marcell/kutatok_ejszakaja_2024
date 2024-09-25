@@ -12,11 +12,25 @@ svg {
   transition: fill 0.1s, stroke-width 0.5s, stroke 0.5s !important;
 }
 
+@keyframes flash {
+  0%   {opacity: 1;}
+  50%  {opacity: 0.9; fill: #115396
+  }
+  100% {opacity: 1;}
+}
+
+.building3 {
+  /*stroke: rgb(166, 245, 245) !important;*/
+  /*stroke-width: 1 !important;*/
+  animation: flash 3s infinite;
+
+  transition: fill 0.1s, stroke-width 0.5s, stroke 0.5s !important;
+}
+
 .building:hover {
   fill: #82c2e7 !important;
   stroke: #115396 !important;
   stroke-width: 15 !important;
-
 }
 .building2 {
   fill: #82c2e7 !important;
