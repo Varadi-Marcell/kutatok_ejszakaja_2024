@@ -1,38 +1,34 @@
-import { AfterViewInit, Component, ElementRef, OnInit, ViewChild } from '@angular/core';
-import { MySvgComponent } from '../../my-svg/my-svg.component';
-import panzoom from '@panzoom/panzoom';
-import { DataService } from '../../service/data.service';
+import {AfterViewInit, Component, ElementRef, OnInit, ViewChild} from '@angular/core';
+import {DataService} from "../service/data.service";
+import panzoom from "@panzoom/panzoom";
+import {A4SvgComponent} from "../a4-svg/a4-svg.component";
 
 @Component({
-  selector: 'app-activity',
-  templateUrl: './activity.component.html',
-  styleUrls: ['./activity.component.css']
+  selector: 'app-a4',
+  templateUrl: './a4.component.html',
+  styleUrls: ['./a4.component.scss']
 })
-export class ActivityComponent implements OnInit, AfterViewInit {
+export class A4Component implements OnInit,AfterViewInit{
+
   title = 'nyiltnapAngular';
   data: any;
 
   @ViewChild('scene') scene!: ElementRef;
-  @ViewChild(MySvgComponent) mySvgComp!: MySvgComponent;
-
+  @ViewChild(A4SvgComponent) parkoloSvgEl!: A4SvgComponent;
   private instance: any;
-
   constructor(private dataService: DataService) {
   }
   ngOnInit() {
-    this.dataService.getData().subscribe(data => {
-      this.data = data.filter(item => item.intezmeny === 'MFK');
-    }, err => console.log(err));
+
   }
 
   ngAfterViewInit() {
 
-    this.instance = panzoom(this.mySvgComp.svgEl.nativeElement, {
+    this.instance = panzoom(this.parkoloSvgEl.svgEl.nativeElement, {
       bounds: true,
       maxZoom: 1,
       minZoom: 0.1
     });
-
 
     this.scene.nativeElement.addEventListener('wheel', (e: WheelEvent) => {
       e.preventDefault(); // do not scroll
@@ -75,3 +71,4 @@ export class ActivityComponent implements OnInit, AfterViewInit {
   }
 
 }
+

@@ -1,0 +1,37 @@
+svg {
+  max-width: 100%;
+  max-height: 90vh;
+  display: block;
+  margin: auto;
+}
+
+
+
+.building {
+  transition: fill 0.1s, stroke-width 0.5s, stroke 0.5s !important;
+}
+
+.building:hover {
+  fill: #82c2e7 !important;
+  stroke: #115396 !important;
+  stroke-width: 8 ;
+
+}
+.building2 {
+  fill: #82c2e7 ;
+  stroke: #115396 ;
+  stroke-width: 8 ;
+}
+
+.nonBuilding {
+  fill-opacity: 0 !important;
+  stroke: none !important;
+  stroke-width: 1 !important;
+}
+
+.no-hover {
+  fill: inherit !important;
+  stroke: inherit !important;
+  stroke-width: inherit !important;
+}
+
