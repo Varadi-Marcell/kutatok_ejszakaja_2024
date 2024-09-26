@@ -1,0 +1,35 @@
+
+@media only screen and (max-width: 600px) {
+  .mobile-padding {
+    padding-top: 200px;
+  }
+  .custom-img {
+    width: auto;
+    height: 200px;
+  }
+}
+
+.zoom-buttons {
+  display: flex;
+  flex-direction: column; /* Gombok és kép függőleges rendezése */
+  align-items: flex-start; /* Gombok igazítása a bal oldalhoz */
+}
+
+.button-wrapper {
+  margin-bottom: 10px; /* Kicsi távolság a gombok és a kép között */
+}
+
+.custom-img {
+  width: auto; /* Kép szélességének igazítása, ha szükséges */
+  height: 200px;
+}
+
+.button-group {
+  gap: 3px;
+  display: flex;
+
+button {
+  height: 38px;
+  width: 38px;
+}
+}

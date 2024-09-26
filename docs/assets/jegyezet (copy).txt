@@ -1,8 +1,0 @@
- #mfk
-        [ngClass]="{building:false}"
-        (click)="openModal(template,'mfk')"
-        (mouseover)="handleMouseOver(mfkElements)"
-        (mouseleave)="handleMouseLeave(mfkElements)"
-        class="nonBuilding"
-        
-        

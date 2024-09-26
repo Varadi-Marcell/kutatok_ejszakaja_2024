@@ -54,9 +54,9 @@ export class AulaSvgComponent implements AfterViewInit, OnInit {
   @ViewChildren('gtk') gtkElements: QueryList<ElementRef>;
   @ViewChildren('GasztroPlacc') GasztroPlaccElements: QueryList<ElementRef>;
   @ViewChildren('civil') civilElements: QueryList<ElementRef>;
-  @ViewChildren('TNI') TNIElements: QueryList<ElementRef>;
+  @ViewChildren('tni') tniElements: QueryList<ElementRef>;
 
-
+  BUILDING_CONSTANS='aula';
 
   constructor(private modalService: BsModalService,
               public renderer: Renderer2,
@@ -91,7 +91,9 @@ export class AulaSvgComponent implements AfterViewInit, OnInit {
 
   openModal(template: TemplateRef<any>, building: string) {
     this.selectedFacultyDesk = building;
-    this.selectedData = this.data.filter(item => item.faculty === this.selectedFacultyDesk);
+    this.selectedData = this.data
+      .filter(item => item.faculty === this.selectedFacultyDesk)
+      .sort((a, b) => (a.building === this.BUILDING_CONSTANS ? -1 : 1));
     this.modalRef = this.modalService.show(template);
   }
 

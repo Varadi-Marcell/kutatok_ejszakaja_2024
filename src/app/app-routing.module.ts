@@ -11,7 +11,8 @@ import {ElocsarnokComponent} from "./elocsarnok/elocsarnok.component";
 const routes: Routes = [
   {
     path: '',
-    component: ElocsarnokComponent
+    redirectTo: 'index',
+    pathMatch: 'full'
   },
   {
     path: 'aula',
@@ -20,6 +21,10 @@ const routes: Routes = [
   {
     path: 'a4',
     component: A4Component,
+  },
+  {
+    path: 'index',
+    component: IndexComponent,
   },
   {
     path: 'elocsarnok',

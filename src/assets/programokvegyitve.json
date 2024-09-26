@@ -15,7 +15,7 @@
     "telephone": "06303530973; 06703149491",
     "supports": "ÁJK HÖK hallgatók",
     "faculty": "ajk",
-    "ageRange": "minden"
+    "ageRange": "-"
   },
   {
     "id": "2.",
@@ -33,7 +33,7 @@
     "telephone": "06303530973; 06703149491",
     "supports": "ÁJK HÖK hallgatók",
     "faculty": "ajk",
-    "ageRange": "minden"
+    "ageRange": "-"
   },
   {
     "id": "3.",
@@ -51,7 +51,7 @@
     "telephone": "06303530973; 06703149491",
     "supports": "ÁJK HÖK hallgatók",
     "faculty": "ajk",
-    "ageRange": "minden"
+    "ageRange": "-"
   },
   {
     "id": "4.",
@@ -69,7 +69,7 @@
     "telephone": "06303530973; 06703149491",
     "supports": "ÁJK HÖK hallgatók",
     "faculty": "ajk",
-    "ageRange": "minden"
+    "ageRange": "-"
   },
   {
     "id": "5.",
@@ -87,7 +87,7 @@
     "telephone": "06303530973; 06703149491",
     "supports": "nincs",
     "faculty": "ajk",
-    "ageRange": "minden"
+    "ageRange": "-"
   },
   {
     "id": "6.",
@@ -105,7 +105,7 @@
     "telephone": "06303530973; 06703149491",
     "supports": "nincs",
     "faculty": "ajk",
-    "ageRange": "minden"
+    "ageRange": "-"
   },
   {
     "id": "7.",
@@ -123,7 +123,7 @@
     "telephone": "06303530973; 06703149491",
     "supports": "nincs",
     "faculty": "ajk",
-    "ageRange": "minden"
+    "ageRange": "-"
   },
   {
     "id": "8.",
@@ -141,7 +141,7 @@
     "telephone": "06303530973; 06703149491",
     "supports": "nincs",
     "faculty": "ajk",
-    "ageRange": "minden"
+    "ageRange": "-"
   },
   {
     "id": "9.",
@@ -159,7 +159,7 @@
     "telephone": "06303530973; 06703149491",
     "supports": "nincs",
     "faculty": "ajk",
-    "ageRange": "minden"
+    "ageRange": "-"
   },
   {
     "id": "10.",
@@ -268,7 +268,7 @@
     "telephone": "",
     "supports": "",
     "ageRange": "vegyes",
-    "faculty": "avk"
+    "faculty": "larina"
   },
   {
     "id": "4",
@@ -2042,7 +2042,7 @@
     "englishName": "International Quiz with international students",
     "description": "Tájékoztatást adunk a Pannónia ösztöndíj programról és mentorhálózatainkról, amelyek tagjai a nemzetközi hallgatókat támogatják. Standunknál  kvíz játékban vehetsz részt, majd zászlófelismerésben is kipróbálhatod tudásod nagyszerű ajándékokért.",
     "englishDescription": "Information about Pannonia Programme and our mentor networks + quizzes, game with flags and gifts",
-    "place": "A Díszaulában szeretnénk lenni valamelyik oldalt.",
+    "place": "Díszaula.",
     "time": "18:00-21:00",
     "maxPeople": "nincs",
     "registration": "nincs",

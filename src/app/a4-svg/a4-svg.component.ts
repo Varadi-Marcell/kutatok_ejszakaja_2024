@@ -32,6 +32,7 @@ export class A4SvgComponent implements AfterViewInit, OnInit {
   @ViewChildren('gtk') gtkElements: QueryList<ElementRef>;
   @ViewChildren('mfk') mfkElements: QueryList<ElementRef>;
   @ViewChildren('avk') avkElements: QueryList<ElementRef>;
+  BUILDING_CONSTANS: 'a4';
 
   constructor(private modalService: BsModalService,
               public renderer: Renderer2,
@@ -65,7 +66,10 @@ export class A4SvgComponent implements AfterViewInit, OnInit {
 
   openModal(template: TemplateRef<any>, building: string) {
     this.selectedFacultyDesk = building;
-    this.selectedData = this.data.filter(item => item.faculty === this.selectedFacultyDesk);
+    this.selectedData =
+      this.selectedData = this.data
+        .filter(item => item.faculty === this.selectedFacultyDesk)
+        .sort((a, b) => (a.building === this.BUILDING_CONSTANS ? -1 : 1));
     this.modalRef = this.modalService.show(template);
   }
 

@@ -15,7 +15,8 @@
     "telephone": "06303530973; 06703149491",
     "supports": "ÁJK HÖK hallgatók",
     "faculty": "ajk",
-    "ageRange": "minden"
+    "building": "aula",
+    "ageRange": "-"
   },
   {
     "id": "2.",
@@ -33,7 +34,8 @@
     "telephone": "06303530973; 06703149491",
     "supports": "ÁJK HÖK hallgatók",
     "faculty": "ajk",
-    "ageRange": "minden"
+    "building": "aula",
+    "ageRange": "-"
   },
   {
     "id": "3.",
@@ -51,7 +53,8 @@
     "telephone": "06303530973; 06703149491",
     "supports": "ÁJK HÖK hallgatók",
     "faculty": "ajk",
-    "ageRange": "minden"
+    "building": "aula",
+    "ageRange": "-"
   },
   {
     "id": "4.",
@@ -69,7 +72,8 @@
     "telephone": "06303530973; 06703149491",
     "supports": "ÁJK HÖK hallgatók",
     "faculty": "ajk",
-    "ageRange": "minden"
+    "building": "aula",
+    "ageRange": "-"
   },
   {
     "id": "5.",
@@ -87,7 +91,8 @@
     "telephone": "06303530973; 06703149491",
     "supports": "nincs",
     "faculty": "ajk",
-    "ageRange": "minden"
+    "building": "aula",
+    "ageRange": "-"
   },
   {
     "id": "6.",
@@ -105,7 +110,8 @@
     "telephone": "06303530973; 06703149491",
     "supports": "nincs",
     "faculty": "ajk",
-    "ageRange": "minden"
+    "building": "aula",
+    "ageRange": "-"
   },
   {
     "id": "7.",
@@ -123,7 +129,8 @@
     "telephone": "06303530973; 06703149491",
     "supports": "nincs",
     "faculty": "ajk",
-    "ageRange": "minden"
+    "building": "aula",
+    "ageRange": "-"
   },
   {
     "id": "8.",
@@ -141,7 +148,8 @@
     "telephone": "06303530973; 06703149491",
     "supports": "nincs",
     "faculty": "ajk",
-    "ageRange": "minden"
+    "building": "aula",
+    "ageRange": "-"
   },
   {
     "id": "9.",
@@ -159,62 +167,10 @@
     "telephone": "06303530973; 06703149491",
     "supports": "nincs",
     "faculty": "ajk",
-    "ageRange": "minden"
+    "building": "aula",
+    "ageRange": "-"
   },
-  {
-    "id": "10.",
-    "name": "Miskolci Törvényszék programja",
-    "englishName": "elérhetőség még a későbbiekben",
-    "description": "",
-    "englishDescription": "",
-    "place": "",
-    "time": "",
-    "maxPeople": "",
-    "registration": "",
-    "infrastructureDemand": "",
-    "teacher": "",
-    "email": "",
-    "telephone": "",
-    "supports": "",
-    "faculty": "ajk",
-    "ageRange": ""
-  },
-  {
-    "id": "11.",
-    "name": "Rendőrség programja",
-    "englishName": "elérhetőség még a későbbiekben",
-    "description": "",
-    "englishDescription": "",
-    "place": "",
-    "time": "",
-    "maxPeople": "",
-    "registration": "",
-    "infrastructureDemand": "",
-    "teacher": "",
-    "email": "",
-    "telephone": "",
-    "supports": "",
-    "faculty": "ajk",
-    "ageRange": ""
-  },
-  {
-    "id": "12.",
-    "name": "Miskolci Áldozatsegítő Központ programja",
-    "englishName": "elérhetőség még a későbbiekben",
-    "description": "",
-    "englishDescription": "",
-    "place": "",
-    "time": "",
-    "maxPeople": "",
-    "registration": "",
-    "infrastructureDemand": "",
-    "teacher": "",
-    "email": "",
-    "telephone": "",
-    "supports": "",
-    "faculty": "ajk",
-    "ageRange": ""
-  },
+
   {
     "id": "1",
     "name": "Érdekes kémiai bemutatók",
@@ -231,7 +187,8 @@
     "telephone": "13-48",
     "supports": "Veréb Zsolt, ...",
     "ageRange": "vegyes",
-    "faculty": "avk"
+    "faculty": "avk",
+    "building": "a2"
   },
   {
     "id": "2",
@@ -249,7 +206,8 @@
     "telephone": "15-24",
     "supports": "-",
     "ageRange": "vegyes",
-    "faculty": "avk"
+    "faculty": "avk",
+    "building": "b1"
 
   },
   {
@@ -261,14 +219,15 @@
     "place": "Üvegaula főbejárat földszint",
     "time": "Folyamatosan a teljes rendezvény alatt",
     "maxPeople": "-",
-    "registration": "-",
+    "registration": "nincs",
     "infrastructureDemand": "áram",
     "teacher": "Dr. Szabó Gábor",
     "email": "gabor.szabo@uni-miskolc.hu",
     "telephone": "",
     "supports": "",
     "ageRange": "vegyes",
-    "faculty": "avk"
+    "faculty": "larina",
+    "building": "elocsarnok"
   },
   {
     "id": "4",
@@ -286,7 +245,8 @@
     "telephone": "",
     "supports": "",
     "ageRange": "vegyes",
-    "faculty": "avk"
+    "faculty": "avk",
+    "building": "c2"
   },
   {
     "id": "5",
@@ -304,7 +264,8 @@
     "telephone": "",
     "supports": "",
     "ageRange": "vegyes",
-    "faculty": "avk"
+    "faculty": "avk",
+    "building": "b1"
   },
   {
     "id": "6",
@@ -322,7 +283,8 @@
     "telephone": "",
     "supports": "",
     "ageRange": "",
-    "faculty": "avk"
+    "faculty": "avk",
+    "building": "b1"
   },
   {
     "id": "7",
@@ -340,7 +302,8 @@
     "telephone": "",
     "supports": "",
     "ageRange": "vegyes",
-    "faculty": "avk"
+    "faculty": "avk",
+    "building": "c2"
   },
   {
     "id": "8",
@@ -358,7 +321,8 @@
     "telephone": "19-95",
     "supports": "Dr. Mikóné Dr. Mádi Laura, Gyarmati Gábor, Kovács Tamás Zoltán, Ferenczi Tibor, Kéri Zoltán + hallgatók",
     "ageRange": "vegyes",
-    "faculty": "avk"
+    "faculty": "avk",
+    "building": "c2"
   },
   {
     "id": "9",
@@ -376,7 +340,8 @@
     "telephone": "19-78",
     "supports": "Kovács Tamás Zoltán",
     "ageRange": "vegyes",
-    "faculty": "avk"
+    "faculty": "avk",
+    "building": "c2"
   },
   {
     "id": "10",
@@ -394,25 +359,27 @@
     "telephone": "19-95",
     "supports": "",
     "ageRange": "",
-    "faculty": "avk"
+    "faculty": "avk",
+    "building": "c2"
   },
   {
     "id": "11",
-    "name": "\"\"TŰZBEN SZÜLETETT\"\" - a tűzzománcozás-technológiák fejlődése    ",
+    "name": "\"TŰZBEN SZÜLETETT\" - a tűzzománcozás-technológiák fejlődése    ",
     "englishName": "\"\"BORN IN FIRE\"\" - the development of vitreous enamelling technologies",
     "description": "Hogyan készül? Öntöttvas hulladékból tűzzománcozott retro fürdőkád; vegyipari reaktorok felületvédelme tűzzománcozással;\naz ipari tűzzománcozás technológiái és termékei;\ndíszítőművészeti alkalmazások köztéren és az ékszergyártásban.",
     "englishDescription": "Retro bathtub made of enamelled cast iron waste;\nSurface protection of chemical reactors by enamelling;\nAdvanced technologies and products of industrial enamelling;\nOrnamental applications in public spaces and jewellery production.",
     "place": "régi aula (A/4) földszintjén",
     "time": "Folyamatosan a teljes rendezvény alatt",
     "maxPeople": "-",
-    "registration": "-",
+    "registration": "nincs",
     "infrastructureDemand": "",
     "teacher": "Prof. Dr. Török Tamás",
     "email": "tamas.istvan.torok@uni-miskolc.hu",
     "telephone": "",
     "supports": "Veszprémi Larina",
     "ageRange": "vegyes",
-    "faculty": "avk"
+    "faculty": "avk",
+    "building": "a4"
   },
   {
     "id": "12",
@@ -430,7 +397,8 @@
     "telephone": "-",
     "supports": "-",
     "ageRange": "vegyes",
-    "faculty": "avk"
+    "faculty": "avk",
+    "building": "b1"
   },
   {
     "id": "13",
@@ -448,7 +416,8 @@
     "telephone": "-",
     "supports": "-",
     "ageRange": "vegyes",
-    "faculty": "avk"
+    "faculty": "avk",
+    "building": "b1"
   },
   {
     "id": "14",
@@ -466,7 +435,8 @@
     "telephone": "",
     "supports": "",
     "ageRange": "vegyes",
-    "faculty": "avk"
+    "faculty": "avk",
+    "building": "elocsarnok"
   },
   {
   "id": "1",
@@ -484,7 +454,8 @@
   "telephone": "209806243",
   "supports": "Mihályi Helga, Osváth Andrea, Udvarvölgyi Zsolt, Kiss Daniel, Takács Máté",
   "ageRange": "3-tól felfelé!",
-  "faculty": "btk"
+  "faculty": "btk",
+  "building": "a5"
   },
   {
     "id": "2",
@@ -502,7 +473,8 @@
     "telephone": "303134769",
     "supports": "Ludnikné dr. Pálfi Dorina, dr. Simon Zoltán",
     "ageRange": "10-től felfelé",
-    "faculty": "btk"
+    "faculty": "btk",
+    "building": "c1"
   },
   {
     "id": "3",
@@ -520,7 +492,8 @@
     "telephone": "",
     "supports": "2 fő hallgatói segítő (TKI)",
     "ageRange": "14 évtől",
-    "faculty": "btk"
+    "faculty": "btk",
+    "building": "c1"
   },
   {
     "id": "4",
@@ -538,7 +511,8 @@
     "telephone": "30/2991235",
     "supports": "Dr. Kelemen Judit",
     "ageRange": "14 évestől",
-    "faculty": "btk"
+    "faculty": "btk",
+    "building": "c1"
   },
   {
     "id": "5",
@@ -556,7 +530,8 @@
     "telephone": "6205431505",
     "supports": "Dr. Fazekas Csaba; Dr. Kunt Gergely;",
     "ageRange": "felvételi előtt álló középiskolások és felnőttek",
-    "faculty": "btk"
+    "faculty": "btk",
+    "building": "c1"
   },
   {
     "id": "6",
@@ -574,7 +549,8 @@
     "telephone": "36309401724",
     "supports": "Török Zsuzsanna, Bognár László",
     "ageRange": "16-20 + éves korosztály",
-    "faculty": "btk"
+    "faculty": "btk",
+    "building": "c1"
   },
   {
     "id": "7",
@@ -592,7 +568,8 @@
     "telephone": "",
     "supports": "2 fő hallgatói segítő (AFTI)",
     "ageRange": "felvételi előtt álló középiskolások és felnőttek",
-    "faculty": "btk"
+    "faculty": "btk",
+    "building": "c1"
   },
   {
     "id": "8",
@@ -610,7 +587,8 @@
     "telephone": "36/30 8462740_",
     "supports": "4 fő hallgatói segítő (AFTI)",
     "ageRange": "bárki",
-    "faculty": "btk"
+    "faculty": "btk",
+    "building": "c1"
   },
   {
     "id": "9",
@@ -628,7 +606,8 @@
     "telephone": "06309865622, 06309853035",
     "supports": "",
     "ageRange": "8 éves kortól, de feltétel a minimum alapfokú angol nyelvtudás, mivel a program angol nyelven zajlik",
-    "faculty": "btk"
+    "faculty": "btk",
+    "building": "c1"
   },
   {
     "id": "10",
@@ -646,7 +625,8 @@
     "telephone": "20-7753331",
     "supports": "",
     "ageRange": "bárki",
-    "faculty": "btk"
+    "faculty": "btk",
+    "building": "c1"
   },
   {
     "id": "11",
@@ -664,7 +644,8 @@
     "telephone": "(70)386-71-23",
     "supports": "",
     "ageRange": "bárki",
-    "faculty": "btk"
+    "faculty": "btk",
+    "building": "a1"
   },
   {
     "id": "12",
@@ -682,7 +663,8 @@
     "telephone": "6203500325",
     "supports": "",
     "ageRange": "bárki",
-    "faculty": "btk"
+    "faculty": "btk",
+    "building": "c1"
   },
   {
     "id": "13",
@@ -700,7 +682,8 @@
     "telephone": "702613293",
     "supports": "2 fő MFI hallgató",
     "ageRange": "álláskeresés előtt álló korosztály",
-    "faculty": "btk"
+    "faculty": "btk",
+    "building": "c1"
   },
   {
     "id": "14",
@@ -718,7 +701,8 @@
     "telephone": "702613293",
     "supports": "2 fő MFI hallgató",
     "ageRange": "álláskeresés előtt álló korosztály",
-    "faculty": "btk"
+    "faculty": "btk",
+    "building": "c1"
   },
   {
     "id": "1",
@@ -726,7 +710,7 @@
     "englishName": "The secrets ofour bodies; Addictions",
     "description": "Az emberi test felépítésének tanulmányozása különböző makettek segítségével.\nDohányzás, alkohol, drog - hogyan hat a szervezetünkre?",
     "englishDescription": "Studying the structure of the human body using different types of moulds; Smoking, alcohol, drugs - how do they affect our body?",
-    "place": "Aula",
+    "place": "Díszaula",
     "time": "folyamatos",
     "maxPeople": "nincs limitálva",
     "registration": "nincs",
@@ -736,7 +720,8 @@
     "telephone": "70/3161788",
     "supports": "4 fő hallgató",
     "ageRange": "bármely",
-    "faculty": "etk"
+    "faculty": "etk",
+    "building": "aula"
   },
   {
     "id": "2",
@@ -744,7 +729,7 @@
     "englishName": "Wound preparation. Foreign body in the airway. Resuscitation with AED.",
     "description": "Műseb-készítés! Újraélesztés! Légúti idegen test eltávolítása.",
     "englishDescription": "Wound preparation. Foreign body in the airway. Resuscitation with AED.",
-    "place": "Aula",
+    "place": "Díszaula",
     "time": "folyamatos",
     "maxPeople": "nincs limitálva",
     "registration": "nincs",
@@ -754,7 +739,8 @@
     "telephone": "30/3591921",
     "supports": "3 fő hallgató",
     "ageRange": "bármely",
-    "faculty": "etk"
+    "faculty": "etk",
+    "building": "aula"
   },
   {
     "id": "3",
@@ -762,7 +748,7 @@
     "englishName": "Nursery",
     "description": "A 9. hónap \"\"súlyának\"\" megélése várandós mellénnyel; a pelenkázás, öltöztetés fortélyai.",
     "englishDescription": "Experience the \"\"weight\"\" of the 9th month with a pregnancy simulator; baby changing and dressing tricks",
-    "place": "Aula",
+    "place": "Díszaula",
     "time": "folyamatos",
     "maxPeople": "nincs limitálva",
     "registration": "nincs",
@@ -772,7 +758,8 @@
     "telephone": "30/8332220",
     "supports": "4 fő védőnő hallgató",
     "ageRange": "bármely",
-    "faculty": "etk"
+    "faculty": "etk",
+    "building": "aula"
   },
   {
     "id": "4",
@@ -780,7 +767,7 @@
     "englishName": "  General muscle strength tests and balance tests     ",
     "description": "  Flamingó teszt - az általános egyensúly vizsgálata. Lapérintéses teszt - a felső végtag izomerejének vizsgálata. Four Steps teszt - izomerő és egyensúly vizsgálata. Wall sit - az alsó végtag izomerejének vizsgálata.",
     "englishDescription": "  General muscle strength tests and balance tests     ",
-    "place": "Aula",
+    "place": "Díszaula",
     "time": "folyamatos",
     "maxPeople": "nincs limitálva",
     "registration": "nincs",
@@ -790,7 +777,8 @@
     "telephone": "",
     "supports": "8 fő gyógytornászhallgató",
     "ageRange": "bármely",
-    "faculty": "etk"
+    "faculty": "etk",
+    "building": "aula"
   },
   {
     "id": "5",
@@ -798,7 +786,7 @@
     "englishName": "Herbs in health tourism",
     "description": "Magyarország bővelkedik gyógynövényekben, amelyeket számos formában, így az egészségturizmusban is felhasználnak. Ismerd meg hazánk leggyakoribb gyógynövényeit és felhasználásuk lehetőségeit!",
     "englishDescription": "Hungary is rich in medicinal plants, which are used in all fields, including health tourism. Those interested can learn about the most famous medicinal plants of our country and their uses.",
-    "place": "Aula",
+    "place": "Díszaula",
     "time": "folyamatos",
     "maxPeople": "nincs limitálva",
     "registration": "nincs",
@@ -808,7 +796,8 @@
     "telephone": "30/8425264",
     "supports": "2 fő hallgató",
     "ageRange": "bármely",
-    "faculty": "etk"
+    "faculty": "etk",
+    "building": "aula"
   },
   {
     "id": "6",
@@ -816,7 +805,7 @@
     "englishName": "Eat healthy!",
     "description": "Az egészséges táplálkozásnak minden életkorban alapvető jelentősége van a testi-lelki egészség, a jó szellemi és fizikai teljesítőképesség megőrzése, az optimális növekedés és az egészséges öregedés szempontjából. Az OKOSTÁNYÉR végigvezet bennünket az alapvető élelmiszercsoportokhoz kapcsolható táplálkozási tanácsokon.",
     "englishDescription": "A healthy diet is essential at any age. Its role in maintaining physical and mental health, good mental and physical performance, optimal growth and healthy ageing is undisputed. OKOSTÁNYÉR guides us through the nutritional advice associated with the basic food groups (vegetables, fruit, cereals, milk and dairy products, meat and meat products, fish and eggs).",
-    "place": "Aula",
+    "place": "Díszaula",
     "time": "folyamatos",
     "maxPeople": "nincs limitálva",
     "registration": "nincs",
@@ -826,7 +815,8 @@
     "telephone": "70/3601748",
     "supports": "4 fő ápoló hallató",
     "ageRange": "bármely",
-    "faculty": "etk"
+    "faculty": "etk",
+    "building": "aula"
   },
   {
     "id": "",
@@ -834,7 +824,7 @@
     "englishName": "Measuring bone density",
     "description": "Csontsűrűség mérése OSTEOpro ultrahangos csontsűrűségmérő orvosdiagnosztikai eszközzel.",
     "englishDescription": "Bone density measurement with the OSTEOpro ultrasonic bone densitometer",
-    "place": "Aula",
+    "place": "Díszaula",
     "time": "folyamatos",
     "maxPeople": "nincs limitálva",
     "registration": "nincs",
@@ -844,7 +834,8 @@
     "telephone": "30/3374380",
     "supports": "",
     "ageRange": "bármely",
-    "faculty": "etk"
+    "faculty": "etk",
+    "building": "aula"
   },
   {
     "id": "7",
@@ -852,7 +843,7 @@
     "englishName": "What can you see in the picture?",
     "description": "Különböző orvosi képalkotó eljárásokkal készített, nem mindennapi felvételek.",
     "englishDescription": "Unusual images from different medical imaging techniques",
-    "place": "Aula",
+    "place": "Díszaula",
     "time": "folyamatos",
     "maxPeople": "nincs limitálva",
     "registration": "nincs",
@@ -862,7 +853,8 @@
     "telephone": "",
     "supports": "4 fő képalkotó diagnosztika szakos hallgató",
     "ageRange": "bármely",
-    "faculty": "etk"
+    "faculty": "etk",
+    "building": "aula"
   },
   {
     "id": "8",
@@ -880,7 +872,8 @@
     "telephone": "",
     "supports": "",
     "ageRange": "középiskolás vagy idősebb",
-    "faculty": "etk"
+    "faculty": "etk",
+    "building": "elocsarnok"
   },
   {
     "id": "1",
@@ -898,7 +891,8 @@
     "telephone": "36309123932",
     "supports": "Farkas László, Mentes Dóra, Dr. Fiser Béla",
     "ageRange": "12-",
-    "faculty": "fiek"
+    "faculty": "fiek",
+    "building": "c2"
   },
   {
     "id": "2",
@@ -906,7 +900,7 @@
     "englishName": "An insight into the Rejtő Ferenc EMC Laboratory",
     "description": "Laborlátogatás a Miskolci Egyetem EMC laboratóriumába és az EMC kamrába.",
     "englishDescription": "Visit to the EMC Laboratory and EMC Chamber at the University of Miskolc",
-    "place": "Rejtő Ferenc EMC Laboratórium",
+    "place": "Rejtő Ferenc EMC Laboratórium (Informatika épület mellett)",
     "time": "16:00, 16:45, 17:30, 18:15",
     "maxPeople": "8 fő / látogatás",
     "registration": "nincs",
@@ -916,7 +910,8 @@
     "telephone": "15-71",
     "supports": "Godó László, Ammar Saliby, Hussam Rostum, Yasser Dakhel",
     "ageRange": "all",
-    "faculty": "fiek"
+    "faculty": "fiek",
+    "building": "info"
   },
   {
     "id": "1",
@@ -935,7 +930,8 @@
     "supports": "Dr. Hegedűs György\nKapitány Pálma\nFekete Tamás\nSimon Gábor",
     "ageRange": "",
     "Létszám": "5 fő",
-    "faculty": "geik"
+    "faculty": "geik",
+    "building": "a5"
   },
   {
     "id": "2",
@@ -954,7 +950,8 @@
     "supports": "Dr. Kulcsárné Dr. Forrai Mónika",
     "ageRange": "",
     "Létszám": "2 fő",
-    "faculty": "geik"
+    "faculty": "geik",
+    "building": "info"
   },
   {
     "id": "3",
@@ -973,7 +970,8 @@
     "supports": "Piller Imre",
     "ageRange": "",
     "Létszám": "2 fő",
-    "faculty": "geik"
+    "faculty": "geik",
+    "building": "a4"
   },
   {
     "id": "4",
@@ -992,7 +990,8 @@
     "supports": "",
     "ageRange": "",
     "Létszám": "1 fő",
-    "faculty": "geik"
+    "faculty": "geik",
+    "building": "c2"
   },
   {
     "id": "5",
@@ -1003,7 +1002,7 @@
     "place": "Informatika épület, II. emelet előtere",
     "time": "17:00, 18:00, 19:00, 20:00, 21:00, kb 30 perces programok",
     "maxPeople": "10-15 fő/csoport",
-    "registration": "",
+    "registration": "nincs",
     "infrastructureDemand": "-",
     "teacher": "Bartók Roland",
     "email": "roland.bartok@uni-miskolc.hu",
@@ -1011,7 +1010,8 @@
     "supports": "2 hallgató",
     "ageRange": "bárki",
     "Létszám": "3 fő",
-    "faculty": "geik"
+    "faculty": "geik",
+    "building": "info"
   },
   {
     "id": "6",
@@ -1030,7 +1030,8 @@
     "supports": "2 hallgató",
     "ageRange": "közép",
     "Létszám": "2 fő",
-    "faculty": "geik"
+    "faculty": "geik",
+    "building": "a4"
   },
   {
     "id": "7",
@@ -1049,7 +1050,8 @@
     "supports": "+1fő",
     "ageRange": "0-99",
     "Létszám": "2 fő",
-    "faculty": "geik"
+    "faculty": "geik",
+    "building": "a5"
   },
   {
     "id": "8",
@@ -1068,7 +1070,8 @@
     "supports": "",
     "ageRange": "10 éves kortól",
     "Létszám": "1 fő",
-    "faculty": "geik"
+    "faculty": "geik",
+    "building": "a4"
   },
   {
     "id": "9",
@@ -1087,7 +1090,8 @@
     "supports": "Dr. Kállai Viktória, Tugyi Levente",
     "ageRange": "bárki",
     "Létszám": "3 fő",
-    "faculty": "geik"
+    "faculty": "geik",
+    "building": "c2"
   },
   {
     "id": "10",
@@ -1098,7 +1102,7 @@
     "place": "Elektrotechnikai és Elektronikai Intézet előtere (A3 épület II. emelet a lépcsőforduló mögött)",
     "time": "17:00-22:00",
     "maxPeople": "",
-    "registration": "",
+    "registration": "nincs",
     "infrastructureDemand": "",
     "teacher": "Jobbágy Marcell",
     "email": "marcell.jobbagy@uni-miskolc.hu",
@@ -1106,7 +1110,8 @@
     "supports": "Sipos Szilárd Zsolt, Bárdos Krisztián",
     "ageRange": "bárki",
     "Létszám": "3 fő",
-    "faculty": "geik"
+    "faculty": "geik",
+    "building": "a3"
   },
   {
     "id": "11",
@@ -1117,7 +1122,7 @@
     "place": "Elektrotechnikai és Elektronikai Intézet előtere (A3 épület II. emelet a lépcsőforduló mögött)",
     "time": "17:00-22:00",
     "maxPeople": "",
-    "registration": "",
+    "registration": "nincs",
     "infrastructureDemand": "",
     "teacher": "Jobbágy Marcell",
     "email": "marcell.jobbagy@uni-miskolc.hu",
@@ -1125,7 +1130,8 @@
     "supports": "Dr. habil Bodnár István",
     "ageRange": "bárki",
     "Létszám": "2 fő",
-    "faculty": "geik"
+    "faculty": "geik",
+    "building": "a3"
   },
   {
     "id": "12",
@@ -1136,7 +1142,7 @@
     "place": "Elektrotechnikai és Elektronikai Intézet előtere (A3 épület II. emelet a lépcsőforduló mögött)",
     "time": "17:00-22:00",
     "maxPeople": "",
-    "registration": "",
+    "registration": "nincs",
     "infrastructureDemand": "",
     "teacher": "Boros Rafael Ruben",
     "email": "ruben.boros@uni-miskolc.hu",
@@ -1144,7 +1150,8 @@
     "supports": "",
     "ageRange": "9. osztálytól",
     "Létszám": "1 fő",
-    "faculty": "geik"
+    "faculty": "geik",
+    "building": "a3"
   },
   {
     "id": "13",
@@ -1155,7 +1162,7 @@
     "place": "Elektrotechnikai és Elektronikai Intézet előtere (A3 épület II. emelet a lépcsőforduló mögött)",
     "time": "17:00-22:00",
     "maxPeople": "",
-    "registration": "",
+    "registration": "nincs",
     "infrastructureDemand": "",
     "teacher": "Dr. Olajos Péter",
     "email": "",
@@ -1163,7 +1170,8 @@
     "supports": "",
     "ageRange": "11. osztálytól",
     "Létszám": "1 fő",
-    "faculty": "geik"
+    "faculty": "geik",
+    "building": "a3"
   },
   {
     "id": "14",
@@ -1182,7 +1190,8 @@
     "supports": "Kun-Bodnár Krisztina, Nagy Antal, Pásztor István",
     "ageRange": "",
     "Létszám": "4 fő",
-    "faculty": "geik"
+    "faculty": "geik",
+    "building": "c2"
   },
   {
     "id": "15",
@@ -1193,7 +1202,7 @@
     "place": "Informatika épület, I. és II. emelet",
     "time": "17.00 - 21.00-ig folyamatos",
     "maxPeople": "-",
-    "registration": "-",
+    "registration": "nincs",
     "infrastructureDemand": "-",
     "teacher": "Dr. Árvai László",
     "email": "laszlo.arvai@uni-miskolc.hu",
@@ -1201,7 +1210,8 @@
     "supports": "Dr. Mileff Péter",
     "ageRange": "6-99",
     "Létszám": "2 fő",
-    "faculty": "geik"
+    "faculty": "geik",
+    "building": "info"
   },
   {
     "id": "16",
@@ -1212,7 +1222,7 @@
     "place": "Informatika épület földszint",
     "time": "17.00 - 22.00-ig folyamatos",
     "maxPeople": "-",
-    "registration": "-",
+    "registration": "nincs",
     "infrastructureDemand": "-",
     "teacher": "Huszti Beatrix",
     "email": "beatrix.huszti@evosoft.com",
@@ -1220,7 +1230,8 @@
     "supports": "+4fő",
     "ageRange": "",
     "Létszám": "5 fő",
-    "faculty": "geik"
+    "faculty": "geik",
+    "building": "info"
   },
   {
     "id": "17",
@@ -1239,7 +1250,8 @@
     "supports": "",
     "ageRange": "",
     "Létszám": "1 fő",
-    "faculty": "geik"
+    "faculty": "geik",
+    "building": "c2"
   },
   {
     "id": "18",
@@ -1250,7 +1262,7 @@
     "place": "Díszaula",
     "time": "folyamatos",
     "maxPeople": "-",
-    "registration": "-",
+    "registration": "nincs",
     "infrastructureDemand": "1 nagy asztal, 2 szék",
     "teacher": "Németh Géza",
     "email": "geza.nemeth@uni-miskolc.hu",
@@ -1258,7 +1270,8 @@
     "supports": "Némethné Nándori Zénáb",
     "ageRange": "3-99",
     "Létszám": "2 fő",
-    "faculty": "geik"
+    "faculty": "geik",
+    "building": "aula"
   },
   {
     "id": "19",
@@ -1269,7 +1282,7 @@
     "place": "FŐBEJÁRAT, Üvegelőcsarnok",
     "time": "folyamatos",
     "maxPeople": "-",
-    "registration": "-",
+    "registration": "nincs",
     "infrastructureDemand": "3 nagy asztal, 8 szék",
     "teacher": "Dr. Dömötör Csaba",
     "email": "csaba.domotor@uni-miskolc.hu",
@@ -1277,7 +1290,8 @@
     "supports": "GÉIK-HÖK",
     "ageRange": "",
     "Létszám": "15 fő",
-    "faculty": "geik"
+    "faculty": "geik",
+    "building": "elocsarnok"
   },
   {
     "id": "",
@@ -1288,14 +1302,15 @@
     "place": "FINTELLIGENCE\nPénzügyi Oktatási Centrum\nA/4. épület III. emelet",
     "time": "18:00 - 22:00",
     "maxPeople": "",
-    "registration": "",
+    "registration": "nincs",
     "infrastructureDemand": "",
     "teacher": "Dr. Füredi-Fülöp Judit",
     "email": "judit.fulop@uni-miskolc.hu",
     "telephone": "30/228-1199",
     "supports": "Dr. Pál Zsolt\nVárkonyiné Dr. Juhász Mária\nDr. Süveges Gábor\nMenyhért József\nDr. Kántor Béla\nDr. Bozsik Sándor\nDr. Szemán Judit\nZsombori Zsolt\nDr. Füredi-Fülöp Judit",
     "ageRange": "",
-    "faculty": "gtk"
+    "faculty": "gtk",
+    "building": "a4"
   },
   {
     "id": "",
@@ -1306,14 +1321,15 @@
     "place": "A/4 épület\nRégi aula",
     "time": "Játékidő: 15 perc\nMinden órában 3 alkalom",
     "maxPeople": "6 fő\n2-3 fő/csapat",
-    "registration": "",
+    "registration": "nincs",
     "infrastructureDemand": "mágneses tábla, asztal",
     "teacher": "Dr. Csiszár Csilla Margit",
     "email": "csilla.csiszar@uni-miskolc.hu",
     "telephone": "3620/456-0906",
     "supports": "Dr. Horváth Ágnes\nTakácsné Papp Adrienn\nDr. Csiszár Csilla Margit",
     "ageRange": "",
-    "faculty": "gtk"
+    "faculty": "gtk",
+    "building": "a4"
   },
   {
     "id": "",
@@ -1324,14 +1340,15 @@
     "place": "A/4 épület\nRégi aula",
     "time": "18:00 - 22:00",
     "maxPeople": "30-40 fő",
-    "registration": "",
+    "registration": "nincs",
     "infrastructureDemand": "wifi elérés, 1db asztal, elekromos elosztó",
     "teacher": "Tóth Zoltán",
     "email": "zoltan.toth@uni-miskolc.hu",
     "telephone": "0620/985-8688",
     "supports": "Tóth Zoltán",
     "ageRange": "0 - 100",
-    "faculty": "gtk"
+    "faculty": "gtk",
+    "building": "a4"
   },
   {
     "id": "",
@@ -1342,14 +1359,15 @@
     "place": "A/4 épület\nRégi aula",
     "time": "18:00 - 22:00",
     "maxPeople": "",
-    "registration": "",
+    "registration": "nincs",
     "infrastructureDemand": "asztal, székek",
     "teacher": "Dr. Mihalik- Kucsma Daniella",
     "email": "daniella.kucsma@uni-miskolc.hu",
     "telephone": "0670/452-9196",
     "supports": "Bakó Tamás\nDr. Kerchner András\nAndráskó Dóra\nDr. Harangozó Zsolt\nDr. Faludi Tamás\nMetszősy Gabriella\nPente Zsombor\nJurák Eszter\nDr. Váczi Péter\nTamás Teodóra\nTóthné Dr. Kiss Anett\nDr. Mihalik-Kucsma Daniella",
     "ageRange": "",
-    "faculty": "gtk"
+    "faculty": "gtk",
+    "building": "a4"
   },
   {
     "id": "",
@@ -1360,14 +1378,15 @@
     "place": "A/4 épület\nRégi aula",
     "time": "18:00 - 22:00",
     "maxPeople": "4 fő/kb.30 perc",
-    "registration": "",
+    "registration": "nincs",
     "infrastructureDemand": "16 m2 terület",
     "teacher": "Dr. Orosz Dániel",
     "email": " daniel.orosz@uni-miskolc.hu",
     "telephone": "20/998-8687",
     "supports": "Dr. Szép Tekla\nSiposné Dr. Nándori Eszter\nDr. Kiss Zsuzsanna\nDr. Lipták Katalin\nDr. Orosz Dániel",
     "ageRange": "16+",
-    "faculty": "gtk"
+    "faculty": "gtk",
+    "building": "a4"
   },
   {
     "id": "",
@@ -1378,14 +1397,15 @@
     "place": "A/4 17. szoba",
     "time": "19:30-21:00",
     "maxPeople": "10 fő/30 perc",
-    "registration": "",
+    "registration": "nincs",
     "infrastructureDemand": "2 db. asztal, 2 db. Laptop, 10 db. szék, áram, internet",
     "teacher": "Dr. Szendi Dóra",
     "email": "regszdor@uni-miskolc.hu",
     "telephone": "22-83",
     "supports": "Prof. Dr. Nagy Zoltán\nDr. Kuttor Dániel\nDr. Orosz Dániel\nZapreskó-Farkas Evelin\nDr. Szendi Dóra",
     "ageRange": "16+",
-    "faculty": "gtk"
+    "faculty": "gtk",
+    "building": "a4"
   },
   {
     "id": "",
@@ -1396,14 +1416,15 @@
     "place": "A/4 épület\nRégi aula",
     "time": "18:00-22:00",
     "maxPeople": "50 fő",
-    "registration": "",
+    "registration": "nincs",
     "infrastructureDemand": "1 db asztal, 2 db szék, internet, elosztó",
     "teacher": "Dr. Molnár László",
     "email": "marml@uni-miskolc.hu",
     "telephone": "30/858-6382",
     "supports": "Dr. Molnár László\nHorváth Kata",
     "ageRange": "8 - 100",
-    "faculty": "gtk"
+    "faculty": "gtk",
+    "building": "a4"
   },
   {
     "id": "",
@@ -1414,14 +1435,15 @@
     "place": "A/4 épület\nRégi aula",
     "time": "18:00 - 22:00",
     "maxPeople": "",
-    "registration": "",
+    "registration": "nincs",
     "infrastructureDemand": "1 db asztal, 2 db szék, internet, elosztó",
     "teacher": "Juhász Annamária",
     "email": "juhasz.ancsa@uni-miskolc.hu",
     "telephone": "20/530-1155",
     "supports": "Molnár Tamás\nNagy Katalin\nDr. Papp Adrienn\nJuhász Annamária",
     "ageRange": "",
-    "faculty": "gtk"
+    "faculty": "gtk",
+    "building": "a4"
   },
   {
     "id": "",
@@ -1432,14 +1454,15 @@
     "place": "A5/202.",
     "time": "11:00 - 11:45",
     "maxPeople": "",
-    "registration": "",
+    "registration": "nincs",
     "infrastructureDemand": "",
     "teacher": "Pente Zsombor",
     "email": "zsombor.pente@uni-miskolc.hu",
     "telephone": "",
     "supports": "Pente Zsombor\nTamás Teodóra\nJurák Eszter Réka\nZapreskó-Farkas Evelin",
     "ageRange": "",
-    "faculty": "gtk"
+    "faculty": "gtk",
+    "building": "a5"
   },
   {
     "id": "1",
@@ -1447,7 +1470,7 @@
     "englishName": "Mock exam in English: Zöld Út and Origó bilingual",
     "description": "Szóbeli Origó és Zöld Út (általános, gazdasági vagy műszaki) próbanyelvvizsga angol nyelvből, előzetes regisztráció alapján. A vizsga értékelése után tanácsadás a további felkészüléshez. Regisztráció az üveg előcsarnokban, az Idengennyelvi Oktatási Központ információs pultjánál! ",
     "englishDescription": "Mock exam in English : Zöld Út (general, economic or technical) and Origó (general) bilingual (English-Hungarian) language exams. Personal assessment and recommendations after the exam considering further preparation.",
-    "place": "folyamatban",
+    "place": "A1.(magasföldszint) 11. terem",
     "time": "17-18",
     "maxPeople": "max. 10 fő",
     "registration": "nincs",
@@ -1457,7 +1480,8 @@
     "telephone": "",
     "supports": "",
     "ageRange": "",
-    "faculty": "iok"
+    "faculty": "iok",
+    "building": "a1"
   },
   {
     "id": "2",
@@ -1465,7 +1489,7 @@
     "englishName": "New monolingual general language exams at the University of Miskolc: Origó Mono and Zöld Út",
     "description": "Hasznos gyakorlati tudnivalók az új nyelvvizsga-típusokról leendő vizsgázóknak, szüleiknek és nyelvtanároknak.",
     "englishDescription": "Presentation of both types of language exams providing useful practical information for future candidates, their parents and teachers",
-    "place": "folyamatban",
+    "place": "A1. 1. emelet 107. terem",
     "time": "17-18",
     "maxPeople": "20 fő",
     "registration": "nincs",
@@ -1475,7 +1499,8 @@
     "telephone": "",
     "supports": "",
     "ageRange": "13-99",
-    "faculty": "iok"
+    "faculty": "iok",
+    "building": "a1"
   },
   {
     "id": "3",
@@ -1483,7 +1508,7 @@
     "englishName": "Fun facts about the Spanish and Italian language and culture",
     "description": "Spanyol és olasz nyelvi és országismereti játékos feladatok.",
     "englishDescription": " Quizzes and games related to the Spanish and Italian language and culture",
-    "place": "folyamatban",
+    "place": "A1.(magasföldszint) 12. terem",
     "time": "17-19",
     "maxPeople": "",
     "registration": "nincs",
@@ -1493,7 +1518,8 @@
     "telephone": "",
     "supports": "",
     "ageRange": "",
-    "faculty": "iok"
+    "faculty": "iok",
+    "building": "a1"
   },
   {
     "id": "4",
@@ -1501,7 +1527,7 @@
     "englishName": "Mock exam in German: Zöld Út and Origó bilingual",
     "description": "Szóbeli Origó és Zöld Út ( gazdasági) próbanyelvvizsga német nyelvből, előzetes regisztráció alapján. A vizsga értékelése után tanácsadás a további felkészüléshez. Regisztráció az üveg előcsarnokban, az Idengennyelvi Oktatási Központ információs pultjánál! ",
     "englishDescription": "Mock exam in German : Zöld Út (economic) and Origó (general) bilingual (German-Hungarian) language exams. Personal assessment and recommendations after the exam",
-    "place": "folyamatban",
+    "place": "A1.(magasföldszint) 11. terem",
     "time": "17-18",
     "maxPeople": "max. 10 fő",
     "registration": "nincs",
@@ -1511,7 +1537,8 @@
     "telephone": "",
     "supports": "",
     "ageRange": "",
-    "faculty": "iok"
+    "faculty": "iok",
+    "building": "a1"
   },
   {
     "id": "5",
@@ -1519,7 +1546,7 @@
     "englishName": "INTERACTIVE LANGUAGE EXAM SHOW",
     "description": "Humoros, játékos formában mutatjuk be az egyetemünkön letehető nyelvvizsgák tipikus feladatait. Hasznos tippeket adunk az eredményes felkészüléshez, és a leggyakoribb hibák elkerülésére is mutatunk megoldásokat.",
     "englishDescription": "Fun and playful presentation of the typical tasks of language exams available at our university. Useful tips through interactive exercises for successful preparation and solutions to avoid common mistakes.",
-    "place": "folyamatban",
+    "place": "A1. 1. emelet 107. terem",
     "time": "18:00-18:30, 19:00-19:30",
     "maxPeople": "20-20 fő",
     "registration": "nincs",
@@ -1529,7 +1556,8 @@
     "telephone": "36703121932",
     "supports": "Lévai-Asztalos Erzsébet, Nagyné Varga Orsolya",
     "ageRange": "14 éves kortól",
-    "faculty": "iok"
+    "faculty": "iok",
+    "building": "a1"
   },
   {
     "id": "6",
@@ -1537,7 +1565,7 @@
     "englishName": "Meeting of cultures: German-speaking countries",
     "description": "Német országismereti puzzle.",
     "englishDescription": "Puzzle on German culture and civilization",
-    "place": "folyamatban",
+    "place": "A1.(magasföldszint) 12. terem",
     "time": "18-19",
     "maxPeople": "max. 20 fő",
     "registration": "nincs",
@@ -1547,7 +1575,8 @@
     "telephone": "",
     "supports": "Illés Mária, Fekete Józsefné, Szokoli Katalin",
     "ageRange": "",
-    "faculty": "iok"
+    "faculty": "iok",
+    "building": "a1"
   },
   {
     "id": "7",
@@ -1565,7 +1594,8 @@
     "telephone": "",
     "supports": "",
     "ageRange": "12 éves kortól",
-    "faculty": "iok"
+    "faculty": "iok",
+    "building": "elocsarnok"
   },
   {
     "id": "8",
@@ -1573,7 +1603,7 @@
     "englishName": "Quiz: What do you know about France?",
     "description": "Könnyed országismereti kvíz egyéni megoldása és közös értékelése.",
     "englishDescription": "A printed quiz done individually followed by a discussion of the correct answers.",
-    "place": "folyamatban",
+    "place": "Mit tudsz Franciaországról? Quizjáték",
     "time": "17-19",
     "maxPeople": "",
     "registration": "nincs",
@@ -1583,7 +1613,8 @@
     "telephone": "",
     "supports": "",
     "ageRange": "",
-    "faculty": "iok"
+    "faculty": "iok",
+    "building": "a1"
   },
   {
     "id": "9",
@@ -1591,7 +1622,7 @@
     "englishName": "Geographical quiz on German-speaking countries",
     "description": "A németnyelvű országok tartományait, ezek fővárosait keressük és találjuk meg vaktérképen.",
     "englishDescription": "Find the provinces and their capital cities of German-speaking countries on the blind map",
-    "place": "folyamatban",
+    "place": "A1.(magasföldszint) 12. terem",
     "time": "17-20",
     "maxPeople": "bármennyi folyamatosan",
     "registration": "nincs",
@@ -1601,7 +1632,8 @@
     "telephone": "",
     "supports": "",
     "ageRange": "12 éves kortól",
-    "faculty": "iok"
+    "faculty": "iok",
+    "building": "a1"
   },
   {
     "id": "1.",
@@ -1612,14 +1644,15 @@
     "place": "Konfuciusz Intézet",
     "time": "18:30",
     "maxPeople": "15 fő",
-    "registration": "-",
+    "registration": "nincs",
     "infrastructureDemand": "-",
     "teacher": "Prof. Zhao Jing, Dr. Kuttor Dániel",
     "email": "daniel.kuttor@uni-miskolc.hu, zhao.jing@guest.uni-miskolc.hu",
     "telephone": "24-14",
     "supports": "Konfuciusz Intézet tanárai, munkatársai, diákjai",
     "ageRange": "Minden korosztály",
-    "faculty": "konf"
+    "faculty": "konf",
+    "building": "a1"
   },
   {
     "id": "2.",
@@ -1630,14 +1663,15 @@
     "place": "Konfuciusz Intézet",
     "time": "19:00",
     "maxPeople": "15 fő",
-    "registration": "-",
+    "registration": "nincs",
     "infrastructureDemand": "-",
     "teacher": "Prof. Zhao Jing, Dr. Kuttor Dániel",
     "email": "daniel.kuttor@uni-miskolc.hu, zhao.jing@guest.uni-miskolc.hu",
     "telephone": "24-14",
     "supports": "Konfuciusz Intézet tanárai, munkatársai, diákjai",
     "ageRange": "Minden korosztály",
-    "faculty": "konf"
+    "faculty": "konf",
+    "building": "a1"
   },
   {
     "id": "3.",
@@ -1648,14 +1682,15 @@
     "place": "Konfuciusz Intézet",
     "time": "19:30",
     "maxPeople": "15 fő",
-    "registration": "-",
+    "registration": "nincs",
     "infrastructureDemand": "-",
     "teacher": "Prof. Zhao Jing, Dr. Kuttor Dániel",
     "email": "daniel.kuttor@uni-miskolc.hu, zhao.jing@guest.uni-miskolc.hu",
     "telephone": "24-14",
     "supports": "Konfuciusz Intézet tanárai, munkatársai, diákjai",
     "ageRange": "Minden korosztály",
-    "faculty": "konf"
+    "faculty": "konf",
+    "building": "a1"
   },
   {
     "id": "4.",
@@ -1666,14 +1701,15 @@
     "place": "Konfuciusz Intézet",
     "time": "20:00",
     "maxPeople": "15 fő",
-    "registration": "-",
+    "registration": "nincs",
     "infrastructureDemand": "-",
     "teacher": "Prof. Zhao Jing, Dr. Kuttor Dániel",
     "email": "daniel.kuttor@uni-miskolc.hu, zhao.jing@guest.uni-miskolc.hu",
     "telephone": "24-14",
     "supports": "Konfuciusz Intézet tanárai, munkatársai, diákjai",
     "ageRange": "Minden korosztály",
-    "faculty": "konf"
+    "faculty": "konf",
+    "building": "a1"
   },
   {
     "id": "5.",
@@ -1684,14 +1720,15 @@
     "place": "Konfuciusz Intézet",
     "time": "20:30",
     "maxPeople": "15 fő",
-    "registration": "-",
+    "registration": "nincs",
     "infrastructureDemand": "-",
     "teacher": "Prof. Zhao Jing, Dr. Kuttor Dániel",
     "email": "daniel.kuttor@uni-miskolc.hu, zhao.jing@guest.uni-miskolc.hu",
     "telephone": "24-14",
     "supports": "Konfuciusz Intézet tanárai, munkatársai, diákjai",
     "ageRange": "Minden korosztály",
-    "faculty": "konf"
+    "faculty": "konf",
+    "building": "a1"
   },
   {
     "id": "6.",
@@ -1702,14 +1739,15 @@
     "place": "Konfuciusz Intézet",
     "time": "21:00",
     "maxPeople": "15 fő",
-    "registration": "-",
+    "registration": "nincs",
     "infrastructureDemand": "-",
     "teacher": "Prof. Zhao Jing, Dr. Kuttor Dániel",
     "email": "daniel.kuttor@uni-miskolc.hu, zhao.jing@guest.uni-miskolc.hu",
     "telephone": "24-14",
     "supports": "Konfuciusz Intézet tanárai, munkatársai, diákjai",
     "ageRange": "Minden korosztály",
-    "faculty": "konf"
+    "faculty": "konf",
+    "building": "a1"
   },
   {
     "id": "7.",
@@ -1720,14 +1758,15 @@
     "place": "Egyetem főépület",
     "time": "Folyamatos",
     "maxPeople": "-",
-    "registration": "-",
+    "registration": "nincs",
     "infrastructureDemand": "Áramvételi lehetőség",
     "teacher": "Prof. Zhao Jing, Dr. Kuttor Dániel",
     "email": "daniel.kuttor@uni-miskolc.hu, zhao.jing@guest.uni-miskolc.hu",
     "telephone": "24-14",
     "supports": "Konfuciusz Intézet tanárai, munkatársai, diákjai",
     "ageRange": "Minden korosztály",
-    "faculty": "konf"
+    "faculty": "konf",
+    "building": "a1"
   },
   {
     "id": "1",
@@ -1745,7 +1784,8 @@
     "telephone": "30/8262069",
     "supports": "Dr. Juhász Orchidea\nÁdám Anetta\nCsorba Mónika\nPolonkai Panna\nJózsa Viktor\n+ még kb. 5 segítőnk lesz",
     "comment": "",
-    "faculty": "koszi"
+    "faculty": "koszi",
+    "building": "a1"
   },
   {
     "id": "1",
@@ -1763,7 +1803,8 @@
     "telephone": "+36 30 214 8385",
     "supports": "nincs",
     "ageRange": "0-99 év",
-    "faculty": "mfk"
+    "faculty": "mfk",
+    "building": "a3"
 
   },
   {
@@ -1782,7 +1823,8 @@
     "telephone": "+36 30 826 0101",
     "supports": "nincs",
     "ageRange": "0-99 év",
-    "faculty": "mfk"
+    "faculty": "mfk",
+    "building": "a3"
   },
   {
     "id": "3",
@@ -1800,7 +1842,8 @@
     "telephone": "+36 30 392 2515",
     "supports": "nincs",
     "ageRange": "0-99 év",
-    "faculty": "mfk"
+    "faculty": "mfk",
+    "building": "elocsarnok"
   },
   {
     "id": "4",
@@ -1818,7 +1861,8 @@
     "telephone": "+36 70 426 1205",
     "supports": "nincs",
     "ageRange": "0-99 év",
-    "faculty": "mfk"
+    "faculty": "mfk",
+    "building": "a3"
   },
   {
     "id": "5",
@@ -1836,7 +1880,8 @@
     "telephone": "30/4292307",
     "supports": "Baracza Mátyás Krisztián, Kárpi Marcell",
     "ageRange": "6-99 év",
-    "faculty": "mfk"
+    "faculty": "mfk",
+    "building": "elocsarnok"
   },
   {
     "id": "6",
@@ -1854,7 +1899,8 @@
     "telephone": "30/9674711",
     "supports": "Dr. Havasi István, Szilvási Marcell, Bese Marcell, Keresztes Máté Mihály",
     "ageRange": "6-99 év",
-    "faculty": "mfk"
+    "faculty": "mfk",
+    "building": "a3"
   },
   {
     "id": "7",
@@ -1872,7 +1918,8 @@
     "telephone": "70/3867635",
     "supports": "Kurusta Tamás+1 hallgató",
     "ageRange": "6-99 év",
-    "faculty": "mfk"
+    "faculty": "mfk",
+    "building": "elocsarnok"
   },
   {
     "id": "8",
@@ -1890,7 +1937,8 @@
     "telephone": "30/3680197",
     "supports": "Dr. Szunyog István, Dr. Vadászi Marianna, Dr. Turzó Zoltán, Dr. Szombati-Galyas Anna Bella, Dócs Roland",
     "ageRange": "6-99 év",
-    "faculty": "mfk"
+    "faculty": "mfk",
+    "building": "aula"
   },
   {
     "id": "9",
@@ -1908,7 +1956,8 @@
     "telephone": "703415355",
     "supports": "2 MFK hallgató",
     "ageRange": "6-99",
-    "faculty": "mfk"
+    "faculty": "mfk",
+    "building": "aula"
   },
   {
     "id": "10",
@@ -1926,7 +1975,8 @@
     "telephone": "20/262-4587",
     "supports": "",
     "ageRange": "6-",
-    "faculty": "mfk"
+    "faculty": "mfk",
+    "building": "a4"
   },
   {
     "id": "11",
@@ -1944,7 +1994,8 @@
     "telephone": "20/262-4587",
     "supports": "Miklós Rita",
     "ageRange": "6-",
-    "faculty": "mfk"
+    "faculty": "mfk",
+    "building": "elocsarnok"
   },
   {
     "id": "12",
@@ -1955,14 +2006,15 @@
     "place": "MFK Stand üveg előcsarnok",
     "time": "17:00-től",
     "maxPeople": "",
-    "registration": "",
+    "registration": "nincs",
     "infrastructureDemand": "",
     "teacher": "Szalontai Lajos",
     "email": "lajos.szalontai@uni-miskolc.hu",
     "telephone": "30/2880898",
     "supports": "Farkas Dániel, Szamosi Attila",
     "ageRange": "",
-    "faculty": "mfk"
+    "faculty": "mfk",
+    "building": "elocsarnok"
   },
   {
     "id": "13",
@@ -1973,14 +2025,15 @@
     "place": "MFk stand üveg előcsarnok",
     "time": "",
     "maxPeople": "",
-    "registration": "",
+    "registration": "nincs",
     "infrastructureDemand": "1 asztal, 2 szék",
     "teacher": "Mádainé Üveges Valéria",
     "email": "",
     "telephone": "",
     "supports": "",
     "ageRange": "",
-    "faculty": "mfk"
+    "faculty": "mfk",
+    "building": "elocsarnok"
   },
   {
     "id": "14",
@@ -1998,7 +2051,8 @@
     "telephone": "70/2410793",
     "supports": "Dr. Vágó János, Dr. Szalontai Lajos, Szamosi Attila, Farkas Dániel",
     "ageRange": "-",
-    "faculty": "mfk"
+    "faculty": "mfk",
+    "building": "a4"
   },
   {
     "id": "15",
@@ -2016,7 +2070,8 @@
     "telephone": "30/2620448",
     "supports": "Molnár Ferenc, Dobai András, Bertóti Diána",
     "ageRange": "6-99",
-    "faculty": "mfk"
+    "faculty": "mfk",
+    "building": "c2"
   },
   {
     "id": "16",
@@ -2034,7 +2089,8 @@
     "telephone": "30/3898665",
     "supports": "",
     "ageRange": "6-99",
-    "faculty": "mfk"
+    "faculty": "mfk",
+    "building": "a3"
   },
   {
     "id": "",
@@ -2042,7 +2098,7 @@
     "englishName": "International Quiz with international students",
     "description": "Tájékoztatást adunk a Pannónia ösztöndíj programról és mentorhálózatainkról, amelyek tagjai a nemzetközi hallgatókat támogatják. Standunknál  kvíz játékban vehetsz részt, majd zászlófelismerésben is kipróbálhatod tudásod nagyszerű ajándékokért.",
     "englishDescription": "Information about Pannonia Programme and our mentor networks + quizzes, game with flags and gifts",
-    "place": "A Díszaulában szeretnénk lenni valamelyik oldalt.",
+    "place": "Díszaula.",
     "time": "18:00-21:00",
     "maxPeople": "nincs",
     "registration": "nincs",
@@ -2052,7 +2108,122 @@
     "telephone": "36205177072",
     "supports": "Youssef Nada + 4 mentor\nAttila Csontos\nElyas Haddad\nZsanett Anga\nMargareth Perez\nSzőke Krisztina + Szabó Tamás",
     "comment": "Nada lesz jelen az eseményen, ezért az ő telefonszámát is megadom: +36308353170\nSzabó Tamás: +36206263098",
-    "faculty": "tni"
+    "faculty": "tni",
+    "building": "aula"
+  },
+  {
+    "id": "",
+    "name": "Miskolci Egyetem Sport-Központ",
+    "englishName": "",
+    "description": "",
+    "englishDescription": "",
+    "place": "Díszaula",
+    "time": "17:00-22:00",
+    "maxPeople": "",
+    "registration": "nincs",
+    "infrastructureDemand": "",
+    "teacher": "",
+    "email": "",
+    "telephone": "",
+    "supports": "",
+    "comment": "",
+    "faculty": "sportKp",
+    "building": "aula"
+  },
+  {
+    "id": "",
+    "name": "Madáretető",
+    "englishName": "",
+    "description": "",
+    "englishDescription": "",
+    "place": "Előcsarnok",
+    "time": "17:00-22:00",
+    "maxPeople": "",
+    "registration": "nincs",
+    "infrastructureDemand": "",
+    "teacher": "",
+    "email": "",
+    "telephone": "",
+    "supports": "",
+    "comment": "",
+    "faculty": "madar",
+    "building": "elocsarnok"
+  },
+  {
+    "id": "",
+    "name": "Magyar honvédség",
+    "englishName": "",
+    "description": "",
+    "englishDescription": "",
+    "place": "Előcsarnok",
+    "time": "17:00-22:00",
+    "maxPeople": "",
+    "registration": "nincs",
+    "infrastructureDemand": "",
+    "teacher": "",
+    "email": "",
+    "telephone": "",
+    "supports": "",
+    "comment": "",
+    "faculty": "honved",
+    "building": "elocsarnok"
+  },
+  {
+    "id": "",
+    "name": "Pályaorientáció",
+    "englishName": "",
+    "description": "Duális képzési lehetőségek ismertetése, Kémiai kvíz, JengaQuiz, Selfiezz az instakeretünkkel!",
+    "englishDescription": "",
+    "place": "A4 régi aula",
+    "time": "17:00-22:00",
+    "maxPeople": "",
+    "registration": "nincs",
+    "infrastructureDemand": "",
+    "teacher": "",
+    "email": "",
+    "telephone": "",
+    "supports": "",
+    "comment": "",
+    "faculty": "mol",
+    "building": "a4"
+  },
+  {
+    "id": "",
+    "name": "Bosch",
+    "englishName": "",
+    "description": "Bemutatkozik a Bosch miskolci kéziszerszámgyára és autóipari gyáregysége! Gyere és versenyezz távirányítós fűnyírókkal vagy játssz barátaiddal egy fúrókkal irányítható csocsó asztalon! Fedezd fel milyen, amikor a LEGO robotok életre kelnek és milyen amikor a pneumatika egy játékkal találkozik. A gyárak oktatási központja további tudományos játékokkal készül, így azokat se hagyjd ki!\n",
+    "englishDescription": "",
+    "place": "A4 régi aula",
+    "time": "17:00-22:00",
+    "maxPeople": "",
+    "registration": "nincs",
+    "infrastructureDemand": "",
+    "teacher": "",
+    "email": "",
+    "telephone": "",
+    "supports": "",
+    "comment": "",
+    "faculty": "bosch",
+    "building": "a4"
+  },
+  {
+    "id": "",
+    "name": "Electric Racing",
+    "englishName": "",
+    "description": "",
+    "englishDescription": "",
+    "place": "Díszaula",
+    "time": "17:00-22:00",
+    "maxPeople": "",
+    "registration": "nincs",
+    "infrastructureDemand": "",
+    "teacher": "",
+    "email": "",
+    "telephone": "",
+    "supports": "",
+    "comment": "",
+    "faculty": "electricRacing",
+    "building": "aula"
   }
 ]
 

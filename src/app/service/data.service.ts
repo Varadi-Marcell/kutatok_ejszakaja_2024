@@ -10,7 +10,7 @@ export class DataService {
   constructor(private http: HttpClient) { }
 
   getData(): Observable<any> {
-    return this.http.get('assets/programokvegyitve.json');
+    return this.http.get('assets/programokvegyitve2.json');
   }
   getEvent(id: string): Observable<any> {
     return this.getData().pipe(

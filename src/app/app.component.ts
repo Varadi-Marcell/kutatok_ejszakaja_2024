@@ -1,4 +1,4 @@
-import {  Component } from '@angular/core';
+import { Component, HostListener } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -8,7 +8,15 @@ import {  Component } from '@angular/core';
 export class AppComponent  {
   title = 'ME-Kutatók_Éjszakája';
 
+  isMobile: boolean = false;
+
   constructor() {
+    this.isMobile = window.innerWidth <= 600;
+  }
+
+  @HostListener('window:resize', ['$event'])
+  onResize(event: any) {
+    this.isMobile = event.target.innerWidth <= 600;
   }
 
 }

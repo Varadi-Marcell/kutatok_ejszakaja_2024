@@ -15,4 +15,5 @@ export class EventData {
   supports: string;
   ageRange: string;
   faculty: string;
+  building: string;
 }

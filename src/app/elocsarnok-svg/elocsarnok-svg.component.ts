@@ -26,6 +26,7 @@ export class ElocsarnokSvgComponent implements AfterViewInit, OnInit {
   selectedFacultyDesk: string;
   selectedData: EventData[];
   data: EventData[];
+  BUILDING_CONSTANS = 'elocsarnok'
 
   @ViewChildren('btk') btkElements: QueryList<ElementRef>;
   @ViewChildren('avk') avkElements: QueryList<ElementRef>;
@@ -58,7 +59,6 @@ export class ElocsarnokSvgComponent implements AfterViewInit, OnInit {
   @ViewChildren('larina') larinaElements: QueryList<ElementRef>;
   @ViewChildren('konf') konfElements: QueryList<ElementRef>;
 
-  busz:any;
   constructor(private modalService: BsModalService,private modalService2: BsModalService,
               public renderer: Renderer2,
               private el: ElementRef,
@@ -96,7 +96,10 @@ export class ElocsarnokSvgComponent implements AfterViewInit, OnInit {
     this.selectedFacultyDesk = building;
     console.log(building)
 
-    this.selectedData = this.data.filter(item => item.faculty === this.selectedFacultyDesk);
+    this.selectedData =
+      this.selectedData = this.data
+        .filter(item => item.faculty === this.selectedFacultyDesk)
+        .sort((a, b) => (a.building === this.BUILDING_CONSTANS ? -1 : 1));
     this.modalRef = this.modalService.show(template);
   }
 

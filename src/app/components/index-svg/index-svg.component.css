@@ -12,12 +12,12 @@ svg {
   transition: fill 0.1s, stroke-width 0.5s, stroke 0.5s !important;
 }
 
-@keyframes flash {
-  0%   {opacity: 1;}
-  50%  {opacity: 0.9; fill: #115396
-  }
-  100% {opacity: 1;}
-}
+/*@keyframes flash {*/
+/*  0%   {opacity: 1;}*/
+/*  50%  {opacity: 0.9; fill: #115396*/
+/*  }*/
+/*  100% {opacity: 1;}*/
+/*}*/
 
 .building3 {
   /*stroke: rgb(166, 245, 245) !important;*/
@@ -38,3 +38,22 @@ svg {
   stroke-width: 15 !important;
 }
 
+.nonBuilding {
+  fill-opacity: 0 !important;
+  stroke: none !important;
+  stroke-width: 1 !important;
+}
+
+.no-hover {
+  fill: inherit !important;
+  stroke: inherit !important;
+  stroke-width: inherit !important;
+}
+
+.no-hover-fill {
+  stroke: rgb(0%,0%,0%);
+  stroke-width: 5;
+  fill-rule: nonzero;
+  fill: #FAD75EFF;
+  fill-opacity: 1;
+}

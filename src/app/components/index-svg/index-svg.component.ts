@@ -10,6 +10,7 @@ import {
 } from '@angular/core';
 import { BsModalRef, BsModalService } from 'ngx-bootstrap/modal';
 import { DataService } from "../../service/data.service";
+import { Router } from "@angular/router";
 
 @Component({
   selector: 'app-index-svg',
@@ -32,15 +33,15 @@ export class IndexSvgComponent implements AfterViewInit, OnInit {
   @ViewChildren('b4') b4Elements: QueryList<ElementRef>;
   @ViewChildren('c1') c1Elements: QueryList<ElementRef>;
   @ViewChildren('c2') c2Elements: QueryList<ElementRef>;
-  @ViewChildren('Fobejarat') FobejaratElements: QueryList<ElementRef>;
+  @ViewChildren('elocsarnok') elocsarnokElements: QueryList<ElementRef>;
   @ViewChildren('aula') aulaElements: QueryList<ElementRef>;
-  @ViewChildren('GeoPark') GeoParkElements: QueryList<ElementRef>;
   @ViewChildren('info') infoElements: QueryList<ElementRef>;
   @ViewChildren('parkolo') parkoloElements: QueryList<ElementRef>;
   constructor(private modalService: BsModalService,
               public renderer: Renderer2,
               private el: ElementRef,
-              private dataService: DataService
+              private dataService: DataService,
+              public router: Router
   ) {
   }
 
@@ -73,7 +74,7 @@ export class IndexSvgComponent implements AfterViewInit, OnInit {
 
   openModal(template: TemplateRef<any>, building: string) {
     this.selectedBuilding = building;
-    this.selectedData = this.data.filter(item => item.epulet === this.selectedBuilding);
+    this.selectedData = this.data.filter(item => item.building === this.selectedBuilding);
     this.modalRef = this.modalService.show(template);
   }
 }
