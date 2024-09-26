@@ -104,7 +104,7 @@ export class AulaSvgComponent implements AfterViewInit, OnInit {
       case 'konf':
         return 'Konfuciusz Intézet';
       case 'electricRacing':
-        return 'Electric Racing';
+        return 'Electric Racing Miskolc';
       case 'sportKp':
         return 'Sportközpont';
       default:
