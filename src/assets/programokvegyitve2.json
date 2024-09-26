@@ -77,7 +77,7 @@
   },
   {
     "id": "5.",
-    "name": "Gyere és nyomozz velünk!\nBorsod-Abaúj-Zemplén Megyei Rendőr-Főkapitányság - Balesetmegelőzési Bizottság",
+    "name": "Gyere és nyomozz velünk!\nBorsod-Abaúj-Zemplén Vármegyei Rendőr-Főkapitányság - Balesetmegelőzési Bizottság",
     "englishName": "Come and investigate with us!",
     "description": "Program a Borsod-Abaúj-Zemplén Vármegyei Rendőrfőkapitányság közreműködésével.",
     "englishDescription": "The programme is implemented in cooperation with the Police Headquarters of Borsod-Abaúj-Zemplén County.",
@@ -96,7 +96,7 @@
   },
   {
     "id": "6.",
-    "name": "Bűnmegelőzés - Balesetmegelőzés                                                                                                                       Borsod-Abaúj-Zemplén Megyei Rendőr-Főkapitányság  - Balesetmegelőzési Bizottság",
+    "name": "Bűnmegelőzés - Balesetmegelőzés                                                                                                                       Borsod-Abaúj-Zemplén Vármegyei Rendőr-Főkapitányság  - Balesetmegelőzési Bizottság",
     "englishName": "Crime prevention - Accident prevention",
     "description": "Program a Borsod-Abaúj-Zemplén Vármegyei Rendőrfőkapitányság közreműködésével.",
     "englishDescription": "The programme is implemented in cooperation with the Police Headquarters of Borsod-Abaúj-Zemplén County.",
@@ -115,7 +115,7 @@
   },
   {
     "id": "7.",
-    "name": "Vércseppek nyomában…                                                                                                                                         Borsod-Abaúj-Zemplén Megyei Rendőr-Főkapitányság  - Balesetmegelőzési Bizottság",
+    "name": "Vércseppek nyomában…                                                                                                                                         Borsod-Abaúj-Zemplén Vármegyei Rendőr-Főkapitányság  - Balesetmegelőzési Bizottság",
     "englishName": "Investigation after drops of blood",
     "description": "Program a Borsod-Abaúj-Zemplén Vármegyei Rendőrfőkapitányság közreműködésével.",
     "englishDescription": "The programme is implemented in cooperation with the Police Headquarters of Borsod-Abaúj-Zemplén County.",
@@ -269,7 +269,7 @@
   },
   {
     "id": "6",
-    "name": "\"\"Varázslatos utazás\"\" a polimerek világában",
+    "name": "\"Varázslatos utazás\" a polimerek világában",
     "englishName": "\"\"Magical journey\"\" through the world of polymers",
     "description": "Megismerkedhetünk napjaink egyik elengedhetetlen anyagcsoportjával: a polimerekkel. Érdekes időutazás formájában vezetünk végig, hogyan kísérte végig a polimer az emberiséget és előretekintünk a jövőjükbe!",
     "englishDescription": "We can get to know one of today's essential material groups: polymers. In the form of an interesting time travel, we will guide you through how polymer has accompanied humanity and look ahead to their future!",
@@ -873,7 +873,7 @@
     "supports": "",
     "ageRange": "középiskolás vagy idősebb",
     "faculty": "etk",
-    "building": "elocsarnok"
+    "building": "b4"
   },
   {
     "id": "1",
@@ -1274,7 +1274,7 @@
     "building": "aula"
   },
   {
-    "id": "19",
+    "id": "101",
     "name": "KARI REGISZTRÁCIÓS PULT",
     "englishName": "REGISTRATION DESK",
     "description": "Látogatók útbaigazítása, regisztráció, programokhoz kísérése.",
@@ -1579,7 +1579,7 @@
     "building": "a1"
   },
   {
-    "id": "7",
+    "id": "102",
     "name": "Információ, regisztráció és játék",
     "englishName": "Information and more",
     "description": "Az információs pultnál: jelentkezés próba nyelvvizsgákra, játék különböző kultúrákhoz kapcsolódva.",
@@ -1828,7 +1828,7 @@
   },
   {
     "id": "3",
-    "name": "Sziklaszafari -kőzetek ösvénye",
+    "name": "Szikla szafari - kőzetek ösvénye",
     "englishName": "Rock safari - stone path built from the main rock types of Hungary",
     "description": "1 sétány, 16 kőtömb, megannyi érdekesség.",
     "englishDescription": "16 stone blocks, 1 promenade, countless points of interest.",
@@ -1843,12 +1843,12 @@
     "supports": "nincs",
     "ageRange": "0-99 év",
     "faculty": "mfk",
-    "building": "elocsarnok"
+    "building": "park"
   },
   {
     "id": "4",
     "name": "Csodálatos mészkövek - mészkőkabinet",
-    "englishName": "\"\"Carbonates are born not made\"\" -  exhibition in the Carbonate cabinet",
+    "englishName": "\"Carbonates are born not made\" -  exhibition in the Carbonate cabinet",
     "description": "A kiállítás mai és fosszilis (kőzetté vált) példányokon keresztül mutatja be a mészkövek keletkezését tengeri és édesvízi környezetekben.",
     "englishDescription": "The exhibition shows the formation of limestones in marine and freshwater environments through both modern and fossilized (lithified) specimens.",
     "place": "A/3 III. emelet lépcsőforduló; Őslénytár",
@@ -1881,7 +1881,7 @@
     "supports": "Baracza Mátyás Krisztián, Kárpi Marcell",
     "ageRange": "6-99 év",
     "faculty": "mfk",
-    "building": "elocsarnok"
+    "building": "park"
   },
   {
     "id": "6",
@@ -1984,8 +1984,8 @@
     "englishName": "Geotechnical experiments",
     "description": "A geotechnika sok helyen jelen van a mindennapjainkban. Ez a tudomány az építőtudományok alapja képletesen és szószerint is. Ha felületesen akarjuk jellemezni, a geotechnika a földből, földre és földbe történő építéssel foglalkozik. Látványosabb jelenségei közül válogattuk össze a bemutató elemeit.",
     "englishDescription": "Geotechnics is present in many places in our everyday life, we just don't notice it. This science is the foundation of construction sciences figuratively and literally :). If we want to characterize it superficially, geotechnics deals with construction from the ground, on the ground and in the ground. We selected the elements of the presentation from among the more spectacular phenomena of geotechnics.",
-    "place": "régi aula, lehetőleg 38-as szoba környékén",
-    "time": "folyamatos; de óránként bemutató(17:00, 18:00; 19:00; 20:00 és 21:00-kor)",
+    "place": "régi aula, 38-as szoba környékén",
+    "time": "folyamatos; de óránként bemutató (17:00, 18:00; 19:00; 20:00 és 21:00-kor)",
     "maxPeople": "nincs",
     "registration": "nincs",
     "infrastructureDemand": "1 asztal, 2szék",
@@ -1997,25 +1997,7 @@
     "faculty": "mfk",
     "building": "a4"
   },
-  {
-    "id": "11",
-    "name": "Látogatás a lázbérci víztárolónál, vízellátás,vízkezelés bemutató",
-    "englishName": "Visit of Water Reservoir of Lázbérc; introduction of water supply, water treatment",
-    "description": "Autóbuszos túra a Lázbérci-víztárolóhoz, ahol az üzemlátogatás során betekintést lehet nyerni a vízkivétel és a vízkezelés folyamatába.",
-    "englishDescription": "Bus tour to the Lázbérci water reservoir, where participants can gain an insight into the process of water extraction and water treatment during the plant visit.",
-    "place": "Lázbérc",
-    "time": "a busz 13:00-kor indul a Miskolci Egyetem főépülete elől (szökőkúttól), tervezett visszaérkezés 17:00",
-    "maxPeople": "35",
-    "registration": "van!",
-    "infrastructureDemand": "nincs",
-    "teacher": "Tóth Márton",
-    "email": "marton.toth@uni-miskolc.hu",
-    "telephone": "20/262-4587",
-    "supports": "Miklós Rita",
-    "ageRange": "6-",
-    "faculty": "mfk",
-    "building": "elocsarnok"
-  },
+
   {
     "id": "12",
     "name": "Digitális terepasztal",
@@ -2036,7 +2018,7 @@
     "building": "elocsarnok"
   },
   {
-    "id": "13",
+    "id": "101",
     "name": "MFK stand",
     "englishName": "MFK registration desk",
     "description": "Információs pult,  vezetett programokra feliratkozás,  program indulási hely.",
@@ -2133,9 +2115,9 @@
   },
   {
     "id": "",
-    "name": "Madáretető",
+    "name": "Madármentő Állomás Mályi",
     "englishName": "",
-    "description": "",
+    "description": "Játékos feladatok, ismeretterjesztő előadások, madárbemutató és látványetetés",
     "englishDescription": "",
     "place": "Előcsarnok",
     "time": "17:00-22:00",
@@ -2152,9 +2134,28 @@
   },
   {
     "id": "",
-    "name": "Magyar honvédség",
+    "name": "Magyar Honvédség",
     "englishName": "",
-    "description": "",
+    "description": "3. Gerinc Radar Mérőpont Állomás Bánkút NATO-radar,",
+    "englishDescription": "",
+    "place": "Előcsarnok",
+    "time": "17:00-22:00",
+    "maxPeople": "",
+    "registration": "nincs",
+    "infrastructureDemand": "",
+    "teacher": "",
+    "email": "",
+    "telephone": "",
+    "supports": "",
+    "comment": "",
+    "faculty": "honved",
+    "building": "elocsarnok"
+  },
+  {
+    "id": "",
+    "name": "Magyar Honvédség",
+    "englishName": "",
+    "description": "MH Kelet-magyarországi Hadkiegészítő Parancsnokság 1. Toborzó és Érdekvédelmi Iroda",
     "englishDescription": "",
     "place": "Előcsarnok",
     "time": "17:00-22:00",
@@ -2190,7 +2191,7 @@
   },
   {
     "id": "",
-    "name": "Bosch",
+    "name": "BOSCH",
     "englishName": "",
     "description": "Bemutatkozik a Bosch miskolci kéziszerszámgyára és autóipari gyáregysége! Gyere és versenyezz távirányítós fűnyírókkal vagy játssz barátaiddal egy fúrókkal irányítható csocsó asztalon! Fedezd fel milyen, amikor a LEGO robotok életre kelnek és milyen amikor a pneumatika egy játékkal találkozik. A gyárak oktatási központja további tudományos játékokkal készül, így azokat se hagyjd ki!\n",
     "englishDescription": "",

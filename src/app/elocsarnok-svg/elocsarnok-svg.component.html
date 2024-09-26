@@ -4012,12 +4012,26 @@
         class="cls-56" x="674.13" y="280.2" width="56.7" height="28.3"/>
     </g>
   </g>
-  <g>
-    <rect class="cls-17" x="431.53" y="28.1" width="56.7" height="28.3"/>
-    <rect class="cls-56" x="431.53" y="28.1" width="56.7" height="28.3"/>
+  <g
+  >
+    <rect
+      #madar
+      [ngClass]="{building:true}"
+      (click)="openModal(template,'madar')"
+      (mouseover)="handleMouseOver(madarElements)"
+      (mouseleave)="handleMouseLeave(madarElements)"
+      class="cls-17" x="431.53" y="28.1" width="56.7" height="28.3"/>
+    <rect
+      class="cls-56" x="431.53" y="28.1" width="56.7" height="28.3"/>
   </g>
   <g>
-    <rect class="cls-17" x="737.43" y="28.1" width="56.7" height="28.3"/>
+    <rect
+      #honved
+      [ngClass]="{building:true}"
+      (click)="openModal(template,'honved')"
+      (mouseover)="handleMouseOver(honvedElements)"
+      (mouseleave)="handleMouseLeave(honvedElements)"
+      class="cls-17" x="737.43" y="28.1" width="56.7" height="28.3"/>
     <rect class="cls-56" x="737.43" y="28.1" width="56.7" height="28.3"/>
   </g>
   <g>
@@ -5231,7 +5245,7 @@
   <div class="modal-header">
     <div class="d-flex justify-content-between align-items-center w-100">
       <h4 id="dialog-sizes-name1" class="modal-title pull-left">
-        {{ selectedFacultyDesk === 'konf' ? 'Konfuciusz Intézet' : selectedFacultyDesk.toUpperCase() }}
+        {{ getFacultyDeskName() }}
       </h4>
     </div>
     <button type="button"
@@ -5240,7 +5254,7 @@
   </div>
   <div class="modal-body" style="max-height: calc(100vh - 210px); overflow-y: auto;">
     <div class="d-flex flex-wrap justify-content-start">
-      <app-event-card [data]="selectedData" (close)="modalRef.hide()"></app-event-card>
+      <app-event-card style="width: 100%" [data]="selectedData" (close)="modalRef.hide()"></app-event-card>
     </div>
   </div>
   <div class="modal-footer button-group justify-content-start" style="padding-left: 20px;">

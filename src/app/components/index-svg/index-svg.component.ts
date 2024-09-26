@@ -37,6 +37,8 @@ export class IndexSvgComponent implements AfterViewInit, OnInit {
   @ViewChildren('aula') aulaElements: QueryList<ElementRef>;
   @ViewChildren('info') infoElements: QueryList<ElementRef>;
   @ViewChildren('parkolo') parkoloElements: QueryList<ElementRef>;
+  @ViewChildren('park')parkElements: QueryList<ElementRef>;
+
   constructor(private modalService: BsModalService,
               public renderer: Renderer2,
               private el: ElementRef,
@@ -74,7 +76,19 @@ export class IndexSvgComponent implements AfterViewInit, OnInit {
 
   openModal(template: TemplateRef<any>, building: string) {
     this.selectedBuilding = building;
-    this.selectedData = this.data.filter(item => item.building === this.selectedBuilding);
+
+    if (this.selectedBuilding === 'elocsarnok') {
+      const specialItems = this.data.filter(item => Number(item.id) === 101 || Number(item.id) === 102);
+
+      this.selectedData = this.data
+        .filter(item => item.building === this.selectedBuilding && Number(item.id) !== 101 && Number(item.id) !== 102);
+
+      this.selectedData = [...specialItems, ...this.selectedData];
+    } else {
+      this.selectedData = this.data.filter(item => item.building === this.selectedBuilding);
+    }
+
+    console.log(this.selectedData)
     this.modalRef = this.modalService.show(template);
   }
 

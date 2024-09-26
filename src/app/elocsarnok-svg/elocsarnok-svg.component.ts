@@ -58,6 +58,7 @@ export class ElocsarnokSvgComponent implements AfterViewInit, OnInit {
   @ViewChildren('civil') civilElements: QueryList<ElementRef>;
   @ViewChildren('larina') larinaElements: QueryList<ElementRef>;
   @ViewChildren('konf') konfElements: QueryList<ElementRef>;
+  @ViewChildren('honved') honvedElements: QueryList<ElementRef>;
 
   constructor(private modalService: BsModalService,private modalService2: BsModalService,
               public renderer: Renderer2,
@@ -100,5 +101,17 @@ export class ElocsarnokSvgComponent implements AfterViewInit, OnInit {
     this.modalRef = this.modalService.show(template);
   }
 
+  getFacultyDeskName(): string {
+    switch (this.selectedFacultyDesk) {
+      case 'honved':
+        return 'Magyar Honvédség';
+      case 'madar':
+        return 'Madármentő Állomás Mályi';
+      case 'konf':
+        return 'Konfuciusz Intézet';
+      default:
+        return this.selectedFacultyDesk ? this.selectedFacultyDesk.toUpperCase() : '';
+    }
+  }
 }
 

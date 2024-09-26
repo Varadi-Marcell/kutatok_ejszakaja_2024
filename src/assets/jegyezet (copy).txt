@@ -4,5 +4,26 @@
         (mouseover)="handleMouseOver(mfkElements)"
         (mouseleave)="handleMouseLeave(mfkElements)"
         class="nonBuilding"
-        
-        
+
+
+stefánia
+a6
+park
+BOSCH
+kari reg pultok - ID 101,102 szűrésnél legyenek ezek legelől
+iok információs játék
+park Sziklaszafari -kőzetek ösvénye,Mit mutat az áram a talajban? Helyszín: MFk stand üveg előcsarnok
+
+
+Magyar Honvéd
+Bűnmegelőzés - Balesetmegelőzés Borsod-Abaúj-Zemplén Megyei Rendőr-Főkapitányság - Balesetmegelőzési Bizottság
+Vármegye
+sportközpont - egyszó
+
+Látványos geotechnikai kísérletek--Helyszín: régi aula, lehetőleg 38-as szoba környékén
+Időpont: folyamatos; de óránként bemutató(17:00, 18:00; 19:00; 20:00 és 21:00-kor) -- bemutató space kell
+
+Sziklaszafari -kőzetek ösvénye
+mfk stand kerüljön ki.
+
+""Varázslatos utazás"" a polimerek világában - dupa ""

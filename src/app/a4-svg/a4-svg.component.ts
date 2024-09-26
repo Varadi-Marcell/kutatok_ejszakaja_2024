@@ -67,8 +67,8 @@ export class A4SvgComponent implements AfterViewInit, OnInit {
   openModal(template: TemplateRef<any>, building: string) {
     this.selectedFacultyDesk = building;
     this.selectedData = this.data
-      .filter(item => item.faculty === this.selectedFacultyDesk)
-      .sort((a, b) => (a.building === this.BUILDING_CONSTANS ? -1 : 1));
+      .filter(item => item.faculty === this.selectedFacultyDesk && item.building === this.BUILDING_CONSTANS);
+      // .sort((a, b) => (a.building === this.BUILDING_CONSTANS ? -1 : 1));
 
     this.modalRef = this.modalService.show(template);
   }

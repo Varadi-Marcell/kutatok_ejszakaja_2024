@@ -94,7 +94,7 @@ export class AulaSvgComponent implements AfterViewInit, OnInit {
   openModal(template: TemplateRef<any>, building: string) {
     this.selectedFacultyDesk = building;
     this.selectedData = this.data
-      .filter(item => item.faculty === this.selectedFacultyDesk)
+      .filter(item => item.faculty === this.selectedFacultyDesk && Number(item.id) !== 101)
       .sort((a, b) => (a.building === this.BUILDING_CONSTANS ? -1 : 1));
     this.modalRef = this.modalService.show(template);
   }
@@ -106,7 +106,7 @@ export class AulaSvgComponent implements AfterViewInit, OnInit {
       case 'electricRacing':
         return 'Electric Racing';
       case 'sportKp':
-        return 'Sport Központ';
+        return 'Sportközpont';
       default:
         return this.selectedFacultyDesk ? this.selectedFacultyDesk.toUpperCase() : '';
     }
