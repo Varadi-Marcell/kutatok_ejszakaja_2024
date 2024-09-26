@@ -1,3 +1,10 @@
+
+.custom-img {
+  width: auto;
+  height: 200px;
+  margin-top: -10px; /* Adjust this value as needed */
+}
+
 .button-group {
   gap: 3px;
   display: flex;
@@ -6,4 +13,13 @@
     height: 38px;
     width: 38px;
   }
+}
+
+.button-wrapper {
+  margin-bottom: 10px;
+}
+.zoom-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }

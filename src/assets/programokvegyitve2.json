@@ -1279,7 +1279,7 @@
     "englishName": "REGISTRATION DESK",
     "description": "Látogatók útbaigazítása, regisztráció, programokhoz kísérése.",
     "englishDescription": "Guiding, registering and accompanying visitors to programs.",
-    "place": "FŐBEJÁRAT, Üvegelőcsarnok",
+    "place": "Főbejárat, Üvegelőcsarnok",
     "time": "folyamatos",
     "maxPeople": "-",
     "registration": "nincs",
@@ -1922,6 +1922,25 @@
     "building": "elocsarnok"
   },
   {
+    "id": "14",
+    "name": "A víz formálta táj - fedezd fel a geomorfológia csodálatos világát",
+    "englishName": "The Water-Shaped Landscape - Discover the Wonderful World of Geomorphology.",
+    "description": "A folyóvizes terepasztalon, interaktív modellen keresztül megmutatjuk, hogyan formálja a víz a tájat. Lépésről lépésre követheted a folyamatokat, ahogy a folyók kialakítják a különböző felszínformákat, például a kanyonokat, dombokat és síkságokat.",
+    "englishDescription": "Discover the wonders of nature with our river-based terrain table! Through this interactive model, we showcase how water shapes the landscape. Step by step, you can follow the processes as rivers create various landforms, such as canyons, hills, and plains. Immerse yourself in the exciting world of geography and geology!",
+    "place": "Alagsor A4/017 terem / MFK stand",
+    "time": "17:00-tól folyamatosan",
+    "maxPeople": "15 fő",
+    "registration": "nincs",
+    "infrastructureDemand": "Laborban található eszközpark",
+    "teacher": "Dr. Hegedűs András",
+    "email": "andras.hegedus@uni-miskolc.hu",
+    "telephone": "70/2410793",
+    "supports": "Dr. Vágó János, Dr. Szalontai Lajos, Szamosi Attila, Farkas Dániel",
+    "ageRange": "-",
+    "faculty": "mfk",
+    "building": "a4"
+  },
+  {
     "id": "8",
     "name": "Az energia nyomában",
     "englishName": "In pursuit of energy",
@@ -2035,25 +2054,7 @@
     "faculty": "mfk",
     "building": "elocsarnok"
   },
-  {
-    "id": "14",
-    "name": "A víz formálta táj - fedezd fel a geomorfológia csodálatos világát",
-    "englishName": "The Water-Shaped Landscape - Discover the Wonderful World of Geomorphology.",
-    "description": "A folyóvizes terepasztalon, interaktív modellen keresztül megmutatjuk, hogyan formálja a víz a tájat. Lépésről lépésre követheted a folyamatokat, ahogy a folyók kialakítják a különböző felszínformákat, például a kanyonokat, dombokat és síkságokat.",
-    "englishDescription": "Discover the wonders of nature with our river-based terrain table! Through this interactive model, we showcase how water shapes the landscape. Step by step, you can follow the processes as rivers create various landforms, such as canyons, hills, and plains. Immerse yourself in the exciting world of geography and geology!",
-    "place": "Alagsor A4/017 terem / MFK stand",
-    "time": "17:00-tól folyamatosan",
-    "maxPeople": "15 fő",
-    "registration": "nincs",
-    "infrastructureDemand": "Laborban található eszközpark",
-    "teacher": "Dr. Hegedűs András",
-    "email": "andras.hegedus@uni-miskolc.hu",
-    "telephone": "70/2410793",
-    "supports": "Dr. Vágó János, Dr. Szalontai Lajos, Szamosi Attila, Farkas Dániel",
-    "ageRange": "-",
-    "faculty": "mfk",
-    "building": "a4"
-  },
+
   {
     "id": "15",
     "name": "Ismerd meg a talajt és lásd, amit más nem láthat",

@@ -5230,7 +5230,9 @@
 <ng-template #template>
   <div class="modal-header">
     <div class="d-flex justify-content-between align-items-center w-100">
-      <h4 id="dialog-sizes-name1" class="modal-title pull-left">{{selectedFacultyDesk.toUpperCase()}}</h4>
+      <h4 id="dialog-sizes-name1" class="modal-title pull-left">
+        {{ selectedFacultyDesk === 'konf' ? 'Konfuciusz Intézet' : selectedFacultyDesk.toUpperCase() }}
+      </h4>
     </div>
     <button type="button"
             class="btn btn-close" aria-label="Close" (click)="modalRef.hide()">
@@ -5242,6 +5244,9 @@
     </div>
   </div>
   <div class="modal-footer button-group justify-content-start" style="padding-left: 20px;">
+    <button *ngIf="router.url !== '/index'" type="button" class="btn btn-primary px-1 me-1" [routerLink]="'/index'" (click)="modalRef.hide()">
+      Campus térkép
+    </button>
     <button *ngIf="router.url !== '/elocsarnok'" type="button" class="btn btn-primary px-1 me-1" [routerLink]="'/elocsarnok'" (click)="modalRef.hide()">
       Előcsarnok
     </button>
@@ -5254,3 +5259,4 @@
   </div>
 
 </ng-template>
+

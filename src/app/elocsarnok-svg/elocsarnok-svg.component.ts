@@ -71,11 +71,9 @@ export class ElocsarnokSvgComponent implements AfterViewInit, OnInit {
     this.viewInit.emit();
 
   }
-  showImage = false;
 
   ngOnInit() {
     this.dataService.getData().subscribe(data => {
-      console.log(data);
       this.data = data;
     });
   }
@@ -94,7 +92,6 @@ export class ElocsarnokSvgComponent implements AfterViewInit, OnInit {
 
   openModal(template: TemplateRef<any>, building: string) {
     this.selectedFacultyDesk = building;
-    console.log(building)
 
     this.selectedData =
       this.selectedData = this.data

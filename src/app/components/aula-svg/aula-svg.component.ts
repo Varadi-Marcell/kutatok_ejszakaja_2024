@@ -55,6 +55,8 @@ export class AulaSvgComponent implements AfterViewInit, OnInit {
   @ViewChildren('GasztroPlacc') GasztroPlaccElements: QueryList<ElementRef>;
   @ViewChildren('civil') civilElements: QueryList<ElementRef>;
   @ViewChildren('tni') tniElements: QueryList<ElementRef>;
+  @ViewChildren('sportKp') sportKpElements: QueryList<ElementRef>;
+  @ViewChildren('electricRacing') electricRacingElements: QueryList<ElementRef>;
 
   BUILDING_CONSTANS='aula';
 
@@ -95,6 +97,19 @@ export class AulaSvgComponent implements AfterViewInit, OnInit {
       .filter(item => item.faculty === this.selectedFacultyDesk)
       .sort((a, b) => (a.building === this.BUILDING_CONSTANS ? -1 : 1));
     this.modalRef = this.modalService.show(template);
+  }
+
+  getFacultyDeskName(): string {
+    switch (this.selectedFacultyDesk) {
+      case 'konf':
+        return 'Konfuciusz Intézet';
+      case 'electricRacing':
+        return 'Electric Racing';
+      case 'sportKp':
+        return 'Sport Központ';
+      default:
+        return this.selectedFacultyDesk ? this.selectedFacultyDesk.toUpperCase() : '';
+    }
   }
 
 }

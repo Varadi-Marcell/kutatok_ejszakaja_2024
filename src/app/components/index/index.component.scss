@@ -1,4 +1,3 @@
-
 @media only screen and (max-width: 600px) {
   .mobile-padding {
     padding-top: 200px;
@@ -11,16 +10,16 @@
 
 .zoom-buttons {
   display: flex;
-  flex-direction: column; /* Gombok és kép függőleges rendezése */
-  align-items: flex-start; /* Gombok igazítása a bal oldalhoz */
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .button-wrapper {
-  margin-bottom: 10px; /* Kicsi távolság a gombok és a kép között */
+  margin-bottom: 10px;
 }
 
 .custom-img {
-  width: auto; /* Kép szélességének igazítása, ha szükséges */
+  width: auto;
   height: 200px;
 }
 

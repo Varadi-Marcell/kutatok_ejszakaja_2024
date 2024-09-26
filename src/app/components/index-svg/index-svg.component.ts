@@ -77,4 +77,18 @@ export class IndexSvgComponent implements AfterViewInit, OnInit {
     this.selectedData = this.data.filter(item => item.building === this.selectedBuilding);
     this.modalRef = this.modalService.show(template);
   }
+
+  getFacultyDeskName(): string {
+    switch (this.selectedBuilding) {
+      case 'info':
+        return 'Informatikai épület';
+      case 'elocsarnok':
+        return 'Üvegaula';
+      case 'aula':
+        return 'Díszaula';
+      default:
+        return this.selectedBuilding ? this.selectedBuilding.toUpperCase() : '';
+    }
+  }
+
 }
